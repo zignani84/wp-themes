@@ -18,8 +18,8 @@ get_header();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">ERRO 404</li>
+						<li class="breadcrumb-item"><a href="#"><?php _e('Home','egali'); ?></a></li>
+						<li class="breadcrumb-item active" aria-current="page"><?php _e('ERRO 404','egali'); ?></li>
 					</ol>
 				</nav>
 			</div>
@@ -29,19 +29,19 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1>OPS! PÁGINA NÃO ENCONTRADA</h1>
+					<h1><?php _e('OPS! PÁGINA NÃO ENCONTRADA','egali'); ?></h1>
 					<div class="line-h-6 mt-4 mb-5"></div>
-					<p>Desculpe, mas não encontramos o que você estava procurando.<br/>
-					<b>Nós aconselhamos você a seguir com as seguintes opções abaixo:</b></p>
+					<p><?php _e('Desculpe, mas não encontramos o que você estava procurando.','egali'); ?><br/>
+					<b><?php _e('Nós aconselhamos você a seguir com as seguintes opções abaixo:','egali'); ?></b></p>
 					<div class="line-h-100 line-grey mb-4"></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-12 col-md-3 col-lg-2">
-					<a href="#" class="btn btn-primary mb-3">IR PARA HOME</a>
+					<a href="#" class="btn btn-primary mb-3"><?php _e('IR PARA HOME','egali'); ?></a>
 				</div>
 				<div class="col-12 col-md-4 col-lg-3">
-					<a href="#" class="btn btn-primary btn-primary-alternate mb-3">VOLTAR A SEÇÃO ANTERIOR</a>
+					<a href="#" class="btn btn-primary btn-primary-alternate mb-3"><?php _e('VOLTAR A SEÇÃO ANTERIOR','egali'); ?></a>
 				</div>
 				<div class="col-12 col-md-5 col-lg-7">
 					<div class="form-group">
