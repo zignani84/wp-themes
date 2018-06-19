@@ -18,8 +18,8 @@ get_header();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">RESULTADO DA PESQUISA</li>
+						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php _e('Home','egali'); ?></a></li>
+						<li class="breadcrumb-item active" aria-current="page"><?php _e('RESULTADO DA PESQUISA','egali'); ?></li>
 					</ol>
 				</nav>
 			</div>
@@ -29,14 +29,14 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1>RESULTADO DA PESQUISA</h1>
+					<h1><?php _e('RESULTADO DA PESQUISA','egali'); ?></h1>
 					<div class="line-h-6 mt-4"></div>
 					<div class="line-h-100 line-grey mb-4"></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-12 col-md-3 col-lg-2">
-					<a href="#" class="btn btn-primary mb-3">IR PARA HOME</a>
+					<a href="#" class="btn btn-primary mb-3"><?php _e('IR PARA HOME','egali'); ?></a>
 				</div>
 				<div class="col-12 col-md-5 col-lg-7">
 					<form role="search" method="get" class="search-form" action="<?php echo get_site_url();?>/">
@@ -65,7 +65,7 @@ get_header();
 				} else {
 					?>
 					<div class="col-12">
-						<h6>Não foram encontrados resultados para a busca de "<?php echo $_GET["s"];?>"</h6>
+						<h6><?php _e('Não foram encontrados resultados para a busca de','egali'); ?> "<?php echo $_GET["s"];?>"</h6>
 					</div>
 					<?php
 				}
