@@ -98,7 +98,7 @@ if($bannersBlog->have_posts()) {
 											<div class="box-caption">
 												<h1><?php echo $titulo; ?></h1>
 												<p><?php echo $data_post; ?></p>
-												<a href="<?php echo $link; ?>" class="btn">Leia</a>
+												<a href="<?php echo $link; ?>" class="btn"><?php _e('Leia','egali'); ?></a>
 											</div>
 										</div>
 
