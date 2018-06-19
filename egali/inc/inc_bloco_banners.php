@@ -40,6 +40,7 @@ if($banners->have_posts()) {
 							$imgUrl = get_relative_thumb($banner_imagemDestaque,'large');
 							?>
 							<div class="carousel-item <?php if ($bannerIndex == 0) echo "active"; ?>" style="background-image: url('<?php echo $imgUrl; ?>')">
+								<div class="overlay-banner"></div>								
 								<div class="carousel-caption-block">
 									<div class="container">
 										<div class="row">
@@ -48,7 +49,7 @@ if($banners->have_posts()) {
 													<div class="box-category"><?php echo $banner_dados["categoria"]; ?></div>
 													<h1><?php echo $banner_dados["frase1"]; ?></h1>
 													<p><?php echo $banner_dados["frase2"]; ?></p>
-													<a href="<?php echo $banner_dados["link"]; ?>" class="btn">Veja Mais</a>
+													<a href="<?php echo $banner_dados["link"]; ?>" class="btn"><?php _e('Veja Mais','egali'); ?></a>
 												</div>
 											</div>
 
@@ -96,7 +97,7 @@ if($banners->have_posts()) {
 													?>
 
 													<li>
-														<a class="link-news" href="<?php echo get_site_url();?>/blog/assunto/">VEJA MAIS POSTS</a>
+														<a class="link-news" href="<?php echo get_site_url();?>/blog/assunto/"><?php _e('VEJA MAIS POSTS','egali'); ?></a>
 														<div class="lin-h-2"></div>
 													</li>
 
