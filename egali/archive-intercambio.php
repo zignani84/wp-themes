@@ -10,8 +10,8 @@ get_header();
 				<div class="row">
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a href="<?php echo get_site_url();?>">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Intercâmbios</li>
+							<li class="breadcrumb-item"><a href="<?php echo get_site_url();?>"><?php _e('Home','egali'); ?></a></li>
+							<li class="breadcrumb-item active" aria-current="page"><?php _e('Intercâmbios','egali'); ?></li>
 						</ol>
 					</nav>
 				</div>
@@ -22,7 +22,7 @@ get_header();
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-12">
-						<h1>Intercâmbios</h1>
+						<h1><?php _e('Intercâmbios','egali'); ?></h1>
 						<div class="line-h-6 mt-4"></div>
 					</div>
 				</div>
@@ -58,8 +58,8 @@ get_header();
 										<div class="line-h-4"></div>
 										<h3><?php echo $curso["nome"];?></h3>
 										<p class="card-text"><?php echo $curso["fraseDestaque"];?></p>
-										<a href="<?php echo $curso["link"];?>" class="btn-exchange-primary">VEJA MAIS</a>
-										<button type="button" class="btn-exchange-secundary btOrcamentoFacil" data-programa="<?php echo $curso["nome"];?>">ORÇAMENTO FACIL</button>
+										<a href="<?php echo $curso["link"];?>" class="btn-exchange-primary"><?php _e('VEJA MAIS','egali'); ?></a>
+										<button type="button" class="btn-exchange-secundary btOrcamentoFacil" data-programa="<?php echo $curso["nome"];?>"><?php _e('ORÇAMENTO FACIL','egali'); ?></button>
 									</div>
 								</div>
 							</div>
