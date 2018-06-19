@@ -10,8 +10,8 @@ get_header();
 				<div class="row">
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a href="<?php echo get_site_url();?>">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">NOSSAS LOJAS</li>
+							<li class="breadcrumb-item"><a href="<?php echo get_site_url();?>"><?php _e('Home','egali'); ?></a></li>
+							<li class="breadcrumb-item active" aria-current="page"><?php _e('NOSSAS LOJAS','egali'); ?></li>
 						</ol>
 					</nav>
 				</div>
@@ -22,7 +22,7 @@ get_header();
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h1>NOSSAS LOJAS</h1>
+						<h1><?php _e('NOSSAS LOJAS','egali'); ?></h1>
 						<div class="line-h-6 mt-4 mb-5"></div>
 					</div>
 				</div>
@@ -59,7 +59,7 @@ get_header();
 		<div class="modal fade modal-toolbar" id="modalMapaLoja" tabindex="-1" role="dialog" aria-labelledby="modalMapaLoja" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
-					<h4 class="text-center">COMO CHEGAR</h4>
+					<h4 class="text-center"><?php _e('COMO CHEGAR','egali'); ?></h4>
 					<div class="line-h-8"></div>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
