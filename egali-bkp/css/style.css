@@ -1,0 +1,105 @@
+/**##### PAG DESTINOS #####**/
+/** BANNER INTERNAL **/
+.banne-internal{width: 100%; height: 300px; background-image: url('../img/banner-destinos.png');background-repeat: no-repeat; background-size: cover; background-position:center;}
+.banne-internal-intercambio{width: 100%; min-height: 300px; max-height: 300px; padding: 55px 0; background-image: url('../img/banner-intercambio.png');background-repeat: no-repeat; background-size: cover; background-position:center; color:#fff}
+/** MENU DESTINY **/
+.main-menu-internal{background-image: linear-gradient(90deg,#05F0FE 37%, #110034 35%);padding: 13px 0; font-family: 'Oswald', sans-serif;}
+.destiny{background-color: #05F0FE; font-weight:300; font-size: 1.125em; color: #110034;text-transform: uppercase; display: table; padding: 8px 20px; margin-top: -56px; }
+.main-menu-internal .navbar{padding: 0 !important; margin-right: 80px; position: relative;}
+.main-menu-internal .navbar::before{background-image: url('../img/bg-pattern-menu-internal.svg'); background-repeat: no-repeat; width: 67px; height: 80px;content: "";position: absolute; top:-55px; right: 0; z-index: 10;}
+.main-menu-internal .navbar-expand-lg .navbar-nav{padding: 0; margin-right: 100px;}
+.main-menu-internal .nav-link{font-weight: 300; font-size: 1.125em; text-transform: uppercase; color: #fff !important; margin-left: 30px;}
+.main-menu-internal h4{margin: 0; color:#110034}
+.main-menu-internal h4 span{font-weight: 300;}
+/** BREADCRUMB **/
+.main-breadcrumb{background-color: #fafafb; border-bottom: 2px solid #eeeeef; padding: 13px 0;}
+.main-breadcrumb .breadcrumb{font-size:0.563em; font-weight: 400; text-transform: uppercase; padding: 0 15px; margin-bottom: 0; background-color: transparent;}
+.main-breadcrumb .breadcrumb .breadcrumb-item a{color: #90A3A4; text-decoration: none;}
+.main-breadcrumb .breadcrumb  .breadcrumb-item.active{color:#110034; text-decoration: underline}
+/** CONTENT DESCRIPTION PAGE **/
+.main-description-page{padding: 60px 0;}
+.main-description-page .title-description{padding-left: 50px; position: relative;}
+.main-description-page .title-description::before{width: 80%;height: 100%;content: "";position: absolute;left: -30px; top: -30px; border: 4px solid #05F0FE; z-index: -1;}
+.main-exchange h4, .main-cards h4, .main-cards-slider h4, .main-options-transportation H4, .information-useful h4, .main-gallery h4, .main-description-page h4{color: #110034; border-left: 4px solid #05F0FE; padding-left: 10px; margin-bottom: 30px; }
+.main-description-page h1{color: #110034; line-height: 62px; margin-bottom: 15px; margin-top: 30px}
+.main-description-page .main-icons span, .main-description-page p{font-size: 0.813em; color: #90A3A4}
+.line-h-100{width: 100%; height: 1px; background-color:rgba(144, 163, 164, 0.4);; margin-top: 45px;}
+.main-description-page .box-icon{width: 80px; border-radius: 100%; background-color: #FE005A; color: #fff; font-size: 2.5em; text-align: center; padding: 10px 0; display: table; float: left;}
+.main-description-page .main-icons{float: left; margin-top: 45px; width: 100%;}
+.main-description-page .text-icons{float: left; margin: 10px 0 0 25px;}
+.main-description-page .text-icons h4{border-left: none; padding-left: 0; text-transform: none;}
+.line-h-166{width: 166px; height: 4px; background-color: #05F0FE; position: relative; z-index: 9; margin-top: -4px;}
+/** GALERY IMAGES E VIDEOS **/
+.main-gallery{position: relative; z-index: 9; margin-bottom: -125px;}
+.main-cards h4, .main-cards-slider h4, .main-gallery h4{font-size: 1.5em;}
+.main-gallery .owl-dot span{width: 10px; max-width: 10px!important; height: 10px !important;; padding: 4px 0; border-radius: 100%; -webkit-box-flex: 0; -webkit-flex: none; background-color: transparent !important; border: 1px solid #fff;}
+.main-gallery .owl-dot.active span{background-color: #05F0FE !important; border: 1px solid #05F0FE !important;}
+/**LIVING GUIDE **/
+.living-guide{background-color: #110034; padding: 200px 0 70px 0;}
+.living-guide h2{color:#fff;}
+/** INFORMATION USEFUL **/
+.information-useful{padding: 50px 0; background-color: #0F2452; position: relative}
+.main-options-transportation H4, .information-useful h4{color:#fff; font-size: 1.5em;}
+.line-v-2{width: 2px; height: 42px; background-color: #fff; margin-right: 20px; margin-bottom: 15px; float: left;}
+.main-options-transportation span, .information-useful span{color: #fff; font-size: 0.813em; display: table; margin-bottom: 5px;}
+.main-options-transportation b, .information-useful span b{text-transform: uppercase;}
+/** COST LIVING **/
+.main-cost-living{position: relative; background-color: #110034; padding: 110px 0;}
+.main-cost-living .phone-emergency{background-color: #fff; font-size: 0.813em; color: #110034; display: table; z-index: 9; padding: 14px 20px; margin-top: -132px; text-transform: uppercase;}
+.main-cost-living h4{text-align: center; color: #fff;margin-bottom: 15px;}
+.main-cost-living h6{color:#fff; margin-bottom: 0px;}
+.main-cost-living span{width: 100%;font-family: 'Oswald', sans-serif; font-size:1.5em; font-weight: 700; color:#fff; display: table}
+.main-cost-living .owl-theme .owl-nav.disabled+.owl-dots{margin-top: 90px;}
+/** OPTIONS TRANSPORTATION **/
+.main-options-transportation{background-color: #0F2452; padding: 100px 0;}
+.main-options-transportation .content-txt{color: #fff; font-size: 0.813em; display: table;}
+/** ATTRACTIONS **/
+.main-cards-slider{background-color:#110034; color: #fff; padding: 100px 0; position: relative; z-index: 9;}
+.main-cards h4, .main-cards-slider h4{color: #fff;}
+.main-cards-slider .card{background-color: transparent;}
+.main-cards-slider .card .card-body{padding: 20px 0 0 0; font-size: 0.813em;}
+.main-cards-slider .card .card-body span{font-weight: 700; text-transform: uppercase;}
+.main-cards-slider .owl-theme .owl-dots .owl-dot span, .main-cards-slider.owl-theme .owl-dots .owl-dot span{border: 1px solid #90A3A4; background-color: transparent; margin-top: 60px;}
+.main-cards-slider .owl-theme .owl-dots .owl-dot.active span, .main-cards-slider .owl-theme .owl-dots .owl-dot:hover span{border-color: #05F0FE; background-color: #05F0FE;}
+/** ITENS CARDS **/
+.main-cards{background-color: #0F2452; padding: 80px 0;}
+.bg-cards{background-color: #110034}
+.main-cards .card{border:none; border-radius: 0; margin-bottom: 20px;}
+.main-cards .card:hover{background-color: #05F0FE; cursor: pointer;}
+.main-cards .card:hover p a,
+.main-cards .card a:hover,
+.main-cards .card h5{color: #110034; text-decoration: none;}
+.main-cards .card p a, .main-cards .card p {font-size: 0.750em; color: #90A3A4; line-height: 17px;}
+/** SLIDER ICONS **/
+.main-slider-icons{position: relative; background-color: #EDF2F5; padding: 110px 0;}
+.main-slider-icons h2{text-align: center; color: #110034;margin-bottom: 15px;}
+.main-slider-icons span{width: 100%;font-family: 'Oswald', sans-serif; font-size:1.5em; font-weight: 700; color:#fff; display: table}
+.main-slider-icons .box-icon{width: 80px; border-radius: 100%; background-color: #110034; color: #fff; font-size: 2.5em; text-align: center; padding: 10px 0; display: table;}
+.main-slider-icons h6{font-size: 1.125em; font-weight: 300; color: #110034; text-align: center; margin-top: 15px; line-height: 30px;}
+.main-slider-icons a:hover{text-decoration: none;}
+.main-slider-icons .owl-theme .owl-dots .owl-dot span{border: 1px solid #90A3A4; background-color: transparent}
+.main-slider-icons .owl-theme .owl-dots .owl-dot:hover span, .main-slider-icons .owl-theme .owl-dots .owl-dot.active span, .main-slider-icons .owl-theme .owl-dots .owl-dot:hover span{border-color: #05F0FE; background-color: #05F0FE;}
+/** DESCRIPTION EXCHANGE DETAIL **/
+.main-description-page .title-description-one{padding-left: 0px; position: relative; height: 60%;}
+.main-description-page .title-description-one::before{width: 50%; height: 100%;content: "";position: absolute;right: 0; top: -30px; border: 4px solid #05F0FE; z-index: -1;}
+@media (min-width: 320px) and (max-width: 767px) {
+    .main-menu-internal{background-image: none; background-color: #05F0FE; color: #110034;}
+    .main-menu-internal .navbar{margin-right: 0;}
+    .main-menu-internal .navbar::before{display: none;}
+    .main-menu-internal .navbar-toggler{font-size: 1.625em !important; border: none; outline: none; cursor: pointer;}
+    .main-menu-internal .nav-link{margin-left: 0; color: #110034 !important; margin-top: 15px;}
+    .main-description-page .title-description{padding-left: 0;}
+    .main-description-page .title-description::before{display: none;}
+    .main-description-page h1{font-size: 1.750em;}
+    .main-description-page .box-icon, .main-description-page .text-icons{float: none; margin-left: auto; margin-right: auto;}
+    .main-description-page .text-icons{margin: 10px 0 0; text-align: center;}
+    .main-description-page .text-icons h4{font-size: 1.5em}
+}
+@media (max-width: 768px){
+    .main-menu-internal{background-image: none; background-color: #05F0FE; color: #110034;}
+    .main-menu-internal .navbar{margin-right: 0;}
+    .main-menu-internal .navbar::before{display: none;}
+    .main-menu-internal .navbar-toggler{font-size: 1.625em !important; border: none; outline: none; cursor: pointer;}
+    .main-menu-internal .nav-link{margin-left: 0; color: #110034 !important; margin-top: 15px;}
+    .main-description-page h1{font-size: 1.750em; line-height: 32px;}
+}

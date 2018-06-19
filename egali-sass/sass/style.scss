@@ -1,0 +1,32 @@
+/*
+Theme Name: Egali Zero
+Theme URI: http://understrap.com
+Author: Giovane Zignani
+Description: Developed by Conectt
+Version: 0.1
+Text Domain: egali-zero
+Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+*/
+//@import "compass";
+//@import "compass/reset";
+
+// Font Material Design Iconic
+@import "scss/fonts/material-design-iconic-font";
+
+// Bootstrap
+@import "scss/bootstrap/bootstrap";
+
+// Here we import our partials
+//@import "_partials/mixins";
+//@import "_partials/variables";
+//@import "_partials/typography";
+
+// Base
+@import "scss/base/style-master";
+
+// Home
+@import "scss/home/home";
+
+// OWL
+@import "scss/owl/owl.carousel";
+@import "scss/owl/owl.theme.default";
