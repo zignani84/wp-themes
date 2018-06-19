@@ -38,7 +38,7 @@ get_header();
 						<div class="row" id="listaDinamicaPosts"></div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<a href="javascript:carregaPostsBlog();" class="btn btn-secondary">VEJA MAIS POSTS</a>
+								<a href="javascript:carregaPostsBlog();" class="btn btn-secondary"><?php _e('VEJA MAIS POSTS','egali'); ?></a>
 							</div>
 						</div>
 					</div>
@@ -49,7 +49,7 @@ get_header();
 							<img src="<?php echo get_theme_file_uri(); ?>/img/banner-vertical.png" alt="Banner faça acontecer" title="" class="img-fluid d-block d-md-none d-lg-block" />
 							<img src="<?php echo get_theme_file_uri(); ?>/img/banner-horizontal.png" alt="Banner faça acontecer" title="" class="img-fluid d-none d-md-block d-lg-none" />
 							<div class="bg-btn">
-								<a href="/intercambio/" class="btn btn-secondary">VEJA MAIS COMO</a>
+								<a href="/intercambio/" class="btn btn-secondary"><?php _e('VEJA MAIS COMO','egali'); ?></a>
 							</div>
 						</div>
 
@@ -79,7 +79,7 @@ get_header();
 			<div class="row" id="listaDinamicaPosts"></div>
 			<div class="row">
 				<div class="col-12 text-center">
-					<a href="javascript:carregaPostsBlog();" class="btn btn-secondary">VEJA MAIS POSTS</a>
+					<a href="javascript:carregaPostsBlog();" class="btn btn-secondary"><?php _e('VEJA MAIS POSTS','egali'); ?></a>
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,7 @@ get_header();
 				<img src="<?php echo get_theme_file_uri(); ?>/img/banner-vertical.png" alt="Banner faça acontecer" title="" class="img-fluid d-block d-md-none d-lg-block" />
 				<img src="<?php echo get_theme_file_uri(); ?>/img/banner-horizontal.png" alt="Banner faça acontecer" title="" class="img-fluid d-none d-md-block d-lg-none" />
 				<div class="bg-btn">
-					<a href="/intercambio/" class="btn btn-secondary">VEJA MAIS COMO</a>
+					<a href="/intercambio/" class="btn btn-secondary"><?php _e('VEJA MAIS COMO','egali'); ?></a>
 				</div>
 			</div>
 
@@ -150,7 +150,7 @@ get_header();
 												<div class="line-h-6"></div>
 												<h5><?php echo $titulo; ?></h5>
 												<p class="card-text"><?php echo $resumo; ?></p>
-												<a href="<?php echo $link;?>" class="card-link"><i class="zmdi zmdi-long-arrow-right"></i> LEIA MAIS</a>
+												<a href="<?php echo $link;?>" class="card-link"><i class="zmdi zmdi-long-arrow-right"></i> <?php _e('LEIA MAIS','egali'); ?></a>
 											</div>
 										</div>
 									</div>
@@ -181,7 +181,7 @@ get_header();
 						<div class="row" id="listaDinamicaPosts"></div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<a href="javascript:carregaPostsBlog();" class="btn btn-secondary">VEJA MAIS POSTS</a>
+								<a href="javascript:carregaPostsBlog();" class="btn btn-secondary"><?php _e('VEJA MAIS POSTS','egali'); ?></a>
 							</div>
 						</div>
 					</div>
@@ -193,7 +193,7 @@ get_header();
 							<img src="<?php echo get_theme_file_uri(); ?>/img/banner-vertical.png" alt="Banner faça acontecer" title="" class="img-fluid d-block d-md-none d-lg-block" />
 							<img src="<?php echo get_theme_file_uri(); ?>/img/banner-horizontal.png" alt="Banner faça acontecer" title="" class="img-fluid d-none d-md-block d-lg-none" />
 							<div class="bg-btn">
-								<a href="/intercambio/" class="btn btn-secondary">VEJA MAIS COMO</a>
+								<a href="/intercambio/" class="btn btn-secondary"><?php _e('VEJA MAIS COMO','egali'); ?></a>
 							</div>
 						</div>
 
