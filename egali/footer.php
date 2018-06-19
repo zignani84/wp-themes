@@ -19,7 +19,7 @@
                                 <?php
                                 if ($iDestinos == 0){
                                 ?>
-                                <h6>Destinos</h6>
+                                <h6><?php _e('Destinos','egali'); ?></h6>
                                 <?php
                                 }
                                 ?>
@@ -46,7 +46,7 @@
                             <?php
                             if ($iIntercambios == 0){
                             ?>
-                            <h6>Intercâmbios</h6>
+                            <h6><?php _e('Intercâmbios','egali'); ?></h6>
                             <?php
                             }
                             ?>
@@ -74,7 +74,7 @@
                             foreach( $categorias as $categoria ) {
                                 if ($iCategorias == 0){
                             ?>
-                                <h6>Blog</h6>
+                                <h6><?php _e('Blog','egali'); ?></h6>
                             <?php
                                 }
                             ?>
@@ -86,11 +86,11 @@
                         </div>
 				
                         <div class="item">
-                            <h6>A Egali</h6>
-                            <a class="itens" href="<?php echo get_site_url();?>/quem-somos">Quem Somos</a>
-                            <a class="itens" href="<?php echo get_site_url();?>/fale-conosco">Fale Conosco</a>
-                            <a class="itens" href="<?php echo get_site_url();?>/trabalhe-conosco">Trabalhe Conosco</a>
-                            <a class="itens" href="<?php echo get_site_url();?>/faq">FAQ</a>
+                            <h6><?php _e('A Egali','egali'); ?></h6>
+                            <a class="itens" href="<?php echo get_site_url();?>/quem-somos"><?php _e('Quem Somos','egali'); ?></a>
+                            <a class="itens" href="<?php echo get_site_url();?>/fale-conosco"><?php _e('Fale Conosco','egali'); ?></a>
+                            <a class="itens" href="<?php echo get_site_url();?>/trabalhe-conosco"><?php _e('Trabalhe Conosco','egali'); ?></a>
+                            <a class="itens" href="<?php echo get_site_url();?>/faq"><?php _e('FAQ','egali'); ?></a>
                         </div>
 
                     </div>
@@ -136,7 +136,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <span class="rights">© Egali Intercâmbio <?php echo date('Y'); ?> - Todos os Direitos Reservados.</span>
+                    <span class="rights">© <?php _e('Egali Intercâmbio','egali'); ?> <?php echo date('Y'); ?> - <?php _e('Todos os Direitos Reservados','egali'); ?>.</span>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <a class="rights float-right" href="http://www.conectt.com.br" target="_blank">CONECTT</a>
@@ -148,7 +148,7 @@
     <div class="modal fade modal-toolbar" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <h4 class="text-center">ORÇAMENTO FÁCIL</h4>
+                <h4 class="text-center"><?php _e('ORÇAMENTO FÁCIL','egali'); ?></h4>
                 <div class="line-h-8"></div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
