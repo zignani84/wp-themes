@@ -14,7 +14,7 @@ if($buscaDiferenciais->have_posts()) {
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h4 class="text-center">DIFERENCIAIS</h4>
+				<h4 class="text-center"><?php _e('DIFERENCIAIS','egali')?></h4>
 				<div class="owl-carousel owl-theme mt-5" id="sliderDiferenciais">
 				<?php
 				while ($buscaDiferenciais->have_posts()) {
@@ -28,8 +28,8 @@ if($buscaDiferenciais->have_posts()) {
 					
 					?>
 					<div class="item">
-						<a class="box-icon mx-auto" href="<?php echo $link; ?>"><i class="zmdi <?php echo $icone; ?>"></i></a>
-						<a href="<?php echo $link; ?>"><h6><?php echo $titulo; ?></h6></a>
+						<div class="box-icon mx-auto"><i class="zmdi <?php echo $icone; ?>"></i></div>
+						<h6><?php echo $titulo; ?></h6>
 					</div>
 					<?php
 				}

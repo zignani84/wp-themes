@@ -13,7 +13,7 @@ if(isset($locaisRelacionados)) {
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h5 class="mb-4">Destinos</h5>
+				<h5 class="mb-4"><?php _e('Destinos','egali')?></h5>
 			</div>
 			<div class="col-12">
 				<div class="masonry">

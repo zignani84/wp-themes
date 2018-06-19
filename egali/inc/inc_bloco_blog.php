@@ -31,14 +31,14 @@ if($blog->have_posts()) {
 				?>
 
 				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card">
+					<div class="card" onclick="location.href='<?php echo $link;?>';">
 						<div class="card-img-top object-cover" style="background-image: url('<?php echo $image[0]; ?>');"></div>
 						<div class="box-category category-color-purple"><?php echo esc_html( $categories[0]->name ); ?></div>
 						<div class="card-body">
 							<div class="line-h-6"></div>
 							<h5><?php echo $titulo; ?></h5>
 							<p class="card-text"><?php echo $resumo; ?></p>
-							<a href="<?php echo $link;?>" class="card-link"><i class="zmdi zmdi-long-arrow-right"></i> LEIA MAIS</a>
+							<a href="<?php echo $link;?>" class="card-link"><i class="zmdi zmdi-long-arrow-right"></i> <?php _e('LEIA MAIS','egali'); ?></a>
 						</div>
 					</div>
 				</div>

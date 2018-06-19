@@ -32,7 +32,7 @@
 					<div class="card-img-overlay">
 						<div class="line-h-4"></div>
 						<h3><?php echo $tipoIntercambio->name; ?></h3>
-						<a href="<?php echo get_site_url(); ?>/intercambios/<?php echo $tipoIntercambio->slug; ?>" class="btn-exchange-primary">VEJA MAIS</a>
+						<a href="<?php echo get_site_url(); ?>/intercambios/<?php echo $tipoIntercambio->slug; ?>" class="btn-exchange-primary"><?php _e('VEJA MAIS','egali')?></a>
 						<button type="button" class="btn-exchange-secundary btOrcamentoFacil" data-programa="<?php echo $tipoIntercambio->name; ?>"><?php _e('ORÇAMENTO FÁCIL', 'egali')?></button>
 					</div>
 				</div>
@@ -45,7 +45,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12 text-center">
-				<a class="btn btn-secondary" href="<?php echo get_home_url(); ?>/promocoes">CONHEÇA NOSSAS PROMOÇÕES</a>
+				<a class="btn btn-secondary" href="<?php echo get_home_url(); ?>/promocoes"><?php _e('CONHEÇA NOSSAS PROMOÇÕES','egali')?></a>
 			</div>
 		</div>
 	</div>
