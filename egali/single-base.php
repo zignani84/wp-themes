@@ -47,8 +47,8 @@ wp_reset_query();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/base/">bases egali</a></li>
+						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php _e('Home','egali'); ?></a></li>
+						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/base/"><?php _e('Bases Egali','egali'); ?></a></li>
 						<li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
 					</ol>
 				</nav>
@@ -60,7 +60,7 @@ wp_reset_query();
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-12">
-					<h1>BASE <?php the_title();?></h1>
+					<h1><?php _e('BASE','egali'); ?> <?php the_title();?></h1>
 					<div class="line-h-6 mt-4"></div>
 				</div>
 			</div>
@@ -77,14 +77,14 @@ wp_reset_query();
 
 					<div class="line-h-100 mb-4 mt-4"></div>
 
-					<p><b>O que a Base Egali <?php the_title();?> oferece?</b></p>
+					<p><b><?php _e('O que a Base Egali','egali'); ?> <?php the_title();?> <?php _e('oferece?','egali'); ?></b></p>
 					
 					<p><?php echo nl2br($base["oferece"]); ?></p>
 
 					<?php
 					if($linkDestino) {
 						?>
-						<a href="<?php echo $linkDestino;?>" class="btn btn-secondary">SOBRE <?php the_title();?></a>
+						<a href="<?php echo $linkDestino;?>" class="btn btn-secondary"><?php _e('SOBRE','egali'); ?> <?php the_title();?></a>
 						<?php
 					}
 					?>
@@ -107,25 +107,25 @@ wp_reset_query();
 				</div>
 				<div class="col-12 col-lg-7">
 					<div class="base-itens">
-						<h5>CONHEÇA A BASE EGALI EM <?php the_title();?></h5>
+						<h5><?php _e('CONHEÇA A BASE EGALI EM','egali'); ?> <?php the_title();?></h5>
 						<div class="row-itens">
 							<div class="col-itens">
-								<b>Walking Tour</b> 
+								<b><?php _e('Walking Tour','egali'); ?></b> 
 								<span><?php echo nl2br($base["walking"]);?></span>
 							</div>
 							<div class="col-itens">
-								<b>Orientação Pós-embarque</b>
+								<b><?php _e('Orientação Pós-embarque','egali'); ?></b>
 								<span><?php echo nl2br($base["orientacao"]);?></span>
 							</div>
 						</div>
 						<div class="row-itens">
 							<div class="col-itens">
-								<b>Informações úteis </b>
+								<b><?php _e('Informações úteis','egali'); ?> </b>
 								<span><?php echo nl2br($base["infoUteis"]);?></span>
 							</div>
 							<?php if(!empty(trim($base["aberturaConta"]))) { ?>
 							<div class="col-itens">
-								<b>Abertura de conta bancária</b>
+								<b><?php _e('Abertura de conta bancária','egali'); ?></b>
 								<span><?php echo nl2br($base["aberturaConta"]);?></span>
 							</div>
 							<?php } ?>
@@ -178,8 +178,8 @@ wp_reset_query();
 				<div class="card">
 					<div class="card-img-top" style="background-image:url('<?php echo $imgUrl ?>');height:180px;background-size:cover;"></div>                                
 					<div class="card-body" style="box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);">
-						<h5 class="card-title">House <?php echo $house->post_title; ?></h5>
-						<a class="btn-secondary" style="display:block" href="<?php echo $house_link;?>">Saiba Mais</a>
+						<h5 class="card-title"><?php _e('House','egali'); ?> <?php echo $house->post_title; ?></h5>
+						<a class="btn-secondary" style="display:block" href="<?php echo $house_link;?>"><?php _e('Saiba Mais','egali'); ?></a>
 					</div>
 				</div>
 			</div>
@@ -213,8 +213,8 @@ wp_reset_query();
 				<div class="card">
 					<div class="card-img-top" style="background-image:url('<?php echo $imgUrl ?>');height:180px;background-size:cover;"></div>                                
 					<div class="card-body" style="box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);">
-						<h5 class="card-title">House <?php echo $hostel->post_title; ?></h5>
-						<a class="btn-secondary" style="display:block" href="<?php echo $hostel_link;?>">Saiba Mais</a>
+						<h5 class="card-title"><?php _e('House','egali'); ?> <?php echo $hostel->post_title; ?></h5>
+						<a class="btn-secondary" style="display:block" href="<?php echo $hostel_link;?>"><?php _e('Saiba Mais','egali'); ?></a>
 					</div>
 				</div>
 			</div>
@@ -233,7 +233,7 @@ wp_reset_query();
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h4>ACOMODAÇÕES</h4>
+						<h4><?php _e('ACOMODAÇÕES','egali'); ?></h4>
 					</div>
 				</div>
 				<div class="row">
