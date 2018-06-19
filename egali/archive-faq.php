@@ -10,8 +10,8 @@ get_header();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="/">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">FAQ</li>
+						<li class="breadcrumb-item"><a href="/"><?php _e('Home','egali'); ?></a></li>
+						<li class="breadcrumb-item active" aria-current="page"><?php _e('FAQ','egali'); ?></li>
 					</ol>
 				</nav>
 			</div>
@@ -21,7 +21,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1>FAQ</h1>
+					<h1><?php _e('FAQ','egali'); ?></h1>
 					<div class="line-h-6 mt-4 mb-5"></div>
 					
 					<div id="accordion">
