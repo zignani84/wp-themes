@@ -82,7 +82,7 @@ get_header();
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<div class="destiny">Destino</div>
+						<div class="destiny"><?php _e('Destino','egali'); ?></div>
 						<nav class="navbar navbar-expand-lg navbar-light">
 							<h4><?php echo $destino_nome;?></h4>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,13 +91,13 @@ get_header();
 							<div class="collapse navbar-collapse" id="navbarNav">
 								<ul class="navbar-nav ml-auto">
 									<li class="nav-item">
-										<a class="nav-link ancora" href="#cidade">O País <span class="sr-only">(current)</span></a>
+										<a class="nav-link ancora" href="#cidade"><?php _e('O País','egali'); ?> <span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link ancora" href="#cidades">Cidades</a>
+										<a class="nav-link ancora" href="#cidades"><?php _e('Cidades','egali'); ?></a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link ancora" href="#intercambio">Intercâmbio</a>
+										<a class="nav-link ancora" href="#intercambio"><?php _e('Intercâmbio','egali'); ?></a>
 									</li>
 								</ul>
 							</div>
@@ -114,8 +114,8 @@ get_header();
 				<div class="row">
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
-							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/destinos/">Destinos</a></li>
+							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php _e('Home','egali'); ?></a></li>
+							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/destinos/"><?php _e('Destinos','egali'); ?></a></li>
 							<li class="breadcrumb-item active" aria-current="page"><?php echo $destino_nome;?></li>
 						</ol>
 					</nav>
@@ -129,7 +129,7 @@ get_header();
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-12">
-						<h1>O país</h1>
+						<h1><?php _e('O país','egali'); ?></h1>
 						<div class="line-h-6 mt-4"></div>
 					</div>
 				</div>
@@ -159,12 +159,12 @@ get_header();
 					</div>
 					<div class="col-12 col-sm-4 col-lg-4">
 						<ul class="description-courses">
-							<li><i class="zmdi zmdi-chevron-right"></i><strong>IDIOMA:</strong> <?php echo $destino_dados["idioma"]; ?></li>
-							<li><i class="zmdi zmdi-chevron-right"></i><strong>CAPITAL:</strong> <?php echo $destino_dados["capital"]; ?></li>
-							<li><i class="zmdi zmdi-chevron-right"></i><strong>MOEDA:</strong>  <?php echo $destino_dados["moeda"]; ?></li>
-							<li><i class="zmdi zmdi-chevron-right"></i><strong>COTAÇÃO:</strong> R$ <?php echo $destino_dados["cotacao"]; ?></li>
-							<li><i class="zmdi zmdi-chevron-right"></i><strong>FUSO HORÁRIO:</strong>  <?php echo $destino_dados["guiaVivencia"]["fusoTxt"]; ?></li>
-							<li><i class="zmdi zmdi-chevron-right"></i><strong>CÓDIGO DDI:</strong> <?php echo $destino_dados["guiaVivencia"]["codDDI"]; ?></li>
+							<li><i class="zmdi zmdi-chevron-right"></i><strong><?php _e('IDIOMA','egali'); ?>:</strong> <?php echo $destino_dados["idioma"]; ?></li>
+							<li><i class="zmdi zmdi-chevron-right"></i><strong><?php _e('CAPITAL','egali'); ?>:</strong> <?php echo $destino_dados["capital"]; ?></li>
+							<li><i class="zmdi zmdi-chevron-right"></i><strong><?php _e('MOEDA','egali'); ?>:</strong>  <?php echo $destino_dados["moeda"]; ?></li>
+							<li><i class="zmdi zmdi-chevron-right"></i><strong><?php _e('COTAÇÃO','egali'); ?>:</strong> R$ <?php echo $destino_dados["cotacao"]; ?></li>
+							<li><i class="zmdi zmdi-chevron-right"></i><strong><?php _e('FUSO HORÁRIO','egali'); ?>:</strong>  <?php echo $destino_dados["guiaVivencia"]["fusoTxt"]; ?></li>
+							<li><i class="zmdi zmdi-chevron-right"></i><strong><?php _e('CÓDIGO DDI','egali'); ?>:</strong> <?php echo $destino_dados["guiaVivencia"]["codDDI"]; ?></li>
 						</ul>
 					</div>
 				</div>
@@ -178,7 +178,7 @@ get_header();
 			<div class="container">
 				<div class="row mb-3">
 					<div class="col-12">
-						<h4>CIDADES</h4>
+						<h4><?php _e('CIDADES','egali'); ?></h4>
 
 						<ul class="box-itens">
 							<?php
@@ -262,8 +262,8 @@ get_header();
 					<div class="card">
 						<div class="card-img-top" style="background-image:url('<?php echo $imgUrl ?>');height:180px;background-size:cover;"></div>                                
 						<div class="card-body" style="box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);">
-							<h5 class="card-title">House <?php echo $house->post_title; ?></h5>
-							<a class="btn-secondary" style="display:block" href="<?php echo $house_link;?>">Saiba Mais</a>
+							<h5 class="card-title"><?php _e('House','egali'); ?> <?php echo $house->post_title; ?></h5>
+							<a class="btn-secondary" style="display:block" href="<?php echo $house_link;?>"><?php _e('Saiba Mais','egali'); ?></a>
 						</div>
 					</div>
 				</div>
@@ -298,8 +298,8 @@ get_header();
 					<div class="card">
 						<div class="card-img-top" style="background-image:url('<?php echo $imgUrl ?>');height:180px;background-size:cover;"></div>                                
 						<div class="card-body" style="box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);">
-							<h5 class="card-title">House <?php echo $hostel->post_title; ?></h5>
-							<a class="btn-secondary" style="display:block" href="<?php echo $hostel_link;?>">Saiba Mais</a>
+							<h5 class="card-title"><?php _e('House','egali'); ?> <?php echo $hostel->post_title; ?></h5>
+							<a class="btn-secondary" style="display:block" href="<?php echo $hostel_link;?>"><?php _e('Saiba Mais','egali'); ?></a>
 						</div>
 					</div>
 				</div>
@@ -318,7 +318,7 @@ get_header();
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<div class="destiny">Destino</div>
+						<div class="destiny"><?php _e('Destino','egali'); ?></div>
 						<nav class="navbar navbar-expand-lg navbar-light">
 							<h4><?php echo $pais_nome.": <span class='d-block d-sm-inline'>".$destino_nome."</span>";?></h4>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -327,22 +327,22 @@ get_header();
 							<div class="collapse navbar-collapse" id="navbarNav">
 								<ul class="navbar-nav ml-auto">
 									<li class="nav-item">
-										<a class="nav-link ancora" href="#cidade">A cidade <span class="sr-only">(current)</span></a>
+										<a class="nav-link ancora" href="#cidade"><?php _e('A cidade','egali'); ?> <span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link ancora" href="#fotosVideos">Fotos e Vídeos</a>
+										<a class="nav-link ancora" href="#fotosVideos"><?php _e('Fotos e Vídeos','egali'); ?></a>
 									</li>
 									<?php
 									if($temAcomodacoes) {
 										?>
 										<li class="nav-item">
-											<a class="nav-link ancora" href="#acomodacoes">Acomodações</a>
+											<a class="nav-link ancora" href="#acomodacoes"><?php _e('Acomodações','egali'); ?></a>
 										</li>
 										<?php
 									}
 									?>
 									<li class="nav-item">
-										<a class="nav-link ancora" href="#intercambio">Intercâmbio</a>
+										<a class="nav-link ancora" href="#intercambio"><?php _e('Intercâmbio','egali'); ?></a>
 									</li>
 								</ul>
 							</div>
@@ -361,8 +361,8 @@ get_header();
 				<div class="row">
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
-							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/destinos">Destinos</a></li>
+							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php _e('Home','egali'); ?></a></li>
+							<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/destinos"><?php _e('Destinos','egali'); ?></a></li>
 							<li class="breadcrumb-item"><a href="<?php echo $pais_link; ?>"><?php echo $pais_nome; ?></a></li>
 							<li class="breadcrumb-item active" aria-current="page"><?php echo $destino_nome; ?></li>
 						</ol>
@@ -380,7 +380,7 @@ get_header();
 			<div class="container">
 				<div class="row mb-sm-3 mb-lg-5">
 					<div class="col-12">
-						<h1>SOBRE A CIDADE</h1>
+						<h1><?php _e('SOBRE A CIDADE','egali'); ?></h1>
 						<div class="line-h-6 mt-4"></div>
 					</div>
 				</div>
@@ -410,7 +410,7 @@ get_header();
 						<div class="main-icons">
 							<div class="box-icon"><i class="zmdi zmdi-nature-people"></i></div>
 							<div class="text-icons">
-								<span>População</span>
+								<span><?php _e('População','egali'); ?></span>
 								<h4><?php echo $destino_dados["populacao"] ?></h4>
 							</div>
 						</div>
@@ -419,7 +419,7 @@ get_header();
 						<div class="main-icons">
 							<div class="box-icon"><i class="zmdi zmdi-time"></i></div>
 							<div class="text-icons">
-								<span>Hora local</span>
+								<span><?php _e('Hora local','egali'); ?></span>
 								<h4 id="horaDestino"></h4>
 							</div>
 						</div>
@@ -437,7 +437,7 @@ get_header();
 						<div class="main-icons">
 							<div class="box-icon"><i class="zmdi zmdi-sun"></i></div>
 							<div class="text-icons">
-								<span>Temperatura local</span>
+								<span><?php _e('Temperatura local','egali'); ?></span>
 								<h4><?php echo $temperatura;?>&deg;C</h4>
 							</div>
 						</div>
@@ -460,7 +460,7 @@ get_header();
 			<section class="main-gallery" id="fotosVideos">
 				<div class="container">
 					<div class="row">
-						<div class="col-12"><h4>FOTOS E VÍDEOS</h4></div>
+						<div class="col-12"><h4><?php _e('FOTOS E VÍDEOS','egali'); ?></h4></div>
 					</div>
 					<div class="row">
 						<div class="col-12">
@@ -509,53 +509,53 @@ get_header();
 			<div class="container">
 				<div class="row mb-3">
 					<div class="col-12">
-						<h4>GUIA DO DESTINO</h4>
+						<h4><?php _e('GUIA DO DESTINO','egali'); ?></h4>
 					</div>
 				</div>
 				<div class="row mb-5">
 					<div class="col-12 col-lg-6">
-						<small>INFORMAÇÕES ÚTEIS</small>
+						<small><?php _e('INFORMAÇÕES ÚTEIS','egali'); ?></small>
 					</div>
 					<div class="col-12 col-lg-6">
-						<small>CUSTO DE VIDA</small>
+						<small><?php _e('CUSTO DE VIDA','egali'); ?></small>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-12 col-lg-6">
 						<div class="box-info">
-							<span><b>Código DDI:</b> <?php echo $destino_dados["guiaVivencia"]["codDDI"] ?></span>
-							<span><b>Código DDD:</b> <?php echo $destino_dados["guiaVivencia"]["codDDD"] ?></span>
+							<span><b><?php _e('Código DDI','egali'); ?>:</b> <?php echo $destino_dados["guiaVivencia"]["codDDI"] ?></span>
+							<span><b><?php _e('Código DDD','egali'); ?>:</b> <?php echo $destino_dados["guiaVivencia"]["codDDD"] ?></span>
 						</div>
 						<div class="box-info">
-							<span><b>FUSO HORÁRIO:</b> <?php echo $destino_dados["guiaVivencia"]["fusoTxt"] ?></span>
-							<span><b>TEMPERATURA:</b> <?php echo $destino_dados["guiaVivencia"]["temperaturasTxt"] ?></span>
+							<span><b><?php _e('FUSO HORÁRIO','egali'); ?>:</b> <?php echo $destino_dados["guiaVivencia"]["fusoTxt"] ?></span>
+							<span><b><?php _e('TEMPERATURA','egali'); ?>:</b> <?php echo $destino_dados["guiaVivencia"]["temperaturasTxt"] ?></span>
 						</div>
 						<div class="box-info">
-							<span><b>VOLTAGEM:</b> <?php echo $destino_dados["guiaVivencia"]["voltagem"] ?></span>
-							<span><b>MOEDA:</b> <?php echo $destino_dados["moeda"] ?></span>
+							<span><b><?php _e('VOLTAGEM','egali'); ?>:</b> <?php echo $destino_dados["guiaVivencia"]["voltagem"] ?></span>
+							<span><b><?php _e('MOEDA','egali'); ?>:</b> <?php echo $destino_dados["moeda"] ?></span>
 						</div>
-						<div class="phone-emergency"><b>TELEFONE DE EMERGÊNCIA:</b> <?php echo $destino_dados["guiaVivencia"]["foneEmergencia"] ?></div>
+						<div class="phone-emergency"><b><?php _e('TELEFONE DE EMERGÊNCIA','egali'); ?>:</b> <?php echo $destino_dados["guiaVivencia"]["foneEmergencia"] ?></div>
 					</div>
 					<div class="col-12 col-lg-6 line-left pt-5 pt-lg-0">
 						<div class="row">
 							<div class="col-6 col-lg-4">
 								<a class="box-icon mx-auto" href="#"><i class="zmdi zmdi-bus"></i></a>
-								<a href="#"><h6>TICKET AVULSO DE ÔNIBUS</h6></a>
+								<a href="#"><h6><?php _e('TICKET AVULSO DE ÔNIBUS','egali'); ?></h6></a>
 								<h5 class="text-center"><?php echo $destino_dados["moedaCod"]." ".number_format($destino_dados["guiaVivencia"]["custo"]["onibus"],2,",",".");?></h5>
 							</div>
 							<div class="col-6 col-lg-4">
 								<a class="box-icon mx-auto" href="#"><i class="zmdi zmdi-coffee"></i></a>
-								<a href="#"><h6>CAFÉ DA MANHÃ</h6></a>
+								<a href="#"><h6><?php _e('CAFÉ DA MANHÃ','egali'); ?></h6></a>
 								<h5 class="text-center"><?php echo $destino_dados["moedaCod"]." ".number_format($destino_dados["guiaVivencia"]["custo"]["refeicao"],2,",",".");?></h5>
 							</div>
 							<div class="col-6 col-lg-4">
 								<a class="box-icon mx-auto" href="#"><i class="zmdi zmdi-cutlery"></i></i></a>
-								<a href="#"><h6>ALMOÇO</h6></a>
+								<a href="#"><h6><?php _e('ALMOÇO','egali'); ?></h6></a>
 								<h5 class="text-center"><?php echo $destino_dados["moedaCod"]." ".number_format($destino_dados["guiaVivencia"]["custo"]["mcmeal"],2,",",".");?></h5>
 							</div>
 							<div class="col-6 col-lg-4">
 								<a class="box-icon mx-auto" href="#"><i class="zmdi zmdi-pizza"></i></a>
-								<a href="#"><h6>JANTAR</h6></a>
+								<a href="#"><h6><?php _e('JANTAR','egali'); ?></h6></a>
 								<h5 class="text-center"><?php echo $destino_dados["moedaCod"]." ".number_format($destino_dados["guiaVivencia"]["custo"]["cocacola"],2,",",".");?></h5>
 							</div>
 <!-- 							<div class="col-6 col-lg-4">
@@ -571,7 +571,7 @@ get_header();
 				</div>
 				<div class="row">
 					<div class="col-12">
-						<small>OPÇÕES DE TRANSPORTE</small>
+						<small><?php _e('OPÇÕES DE TRANSPORTE','egali'); ?></small>
 					</div>
 				</div>
 				<div class="row">
@@ -600,7 +600,7 @@ get_header();
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
-							<h4>ATRAÇÕES</h4>
+							<h4><?php _e('ATRAÇÕES','egali'); ?></h4>
 						</div>
 					</div>
 					<div class="row">
@@ -639,7 +639,7 @@ get_header();
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
-							<h4>ACOMODAÇÕES</h4>
+							<h4><?php _e('ACOMODAÇÕES','egali'); ?></h4>
 						</div>
 					</div>
 					<div class="row">
