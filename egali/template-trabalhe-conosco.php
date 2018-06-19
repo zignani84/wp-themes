@@ -15,8 +15,8 @@ get_header();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">TRABALHE CONOSCO</li>
+						<li class="breadcrumb-item"><a href="#"><?php _e('Home','egali'); ?></a></li>
+						<li class="breadcrumb-item active" aria-current="page"><?php _e('TRABALHE CONOSCO','egali'); ?></li>
 					</ol>
 				</nav>
 			</div>
@@ -26,7 +26,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1>TRABALHE CONOSCO</h1>
+					<h1><?php _e('TRABALHE CONOSCO','egali'); ?></h1>
 				</div>
 			</div>
 
@@ -37,7 +37,7 @@ get_header();
 			<div class="row">
 				<div class="col-12">
 					<div class="line-h-100 mt-4 mb-5"></div>
-					<h4>VAGAS DISPONÍVEIS</h4>
+					<h4><?php _e('VAGAS DISPONÍVEIS','egali'); ?></h4>
 				</div>
 				<div class="col-12">
 					<div id="accordion">
