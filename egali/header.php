@@ -49,21 +49,21 @@
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="line-v"></div>
-						<a class="links-tool-bar" href="<?php echo get_site_url();?>/loja">NOSSAS LOJAS</a> 
+						<a class="links-tool-bar" href="<?php echo get_site_url();?>/loja"><?php _e('NOSSAS LOJAS','egali'); ?></a> 
 						<div class="line-v"></div>
-						<a class="links-tool-bar" href="<?php echo $fale_conosco_link; ?>">FALE COM A EGALI</a>
+						<a class="links-tool-bar" href="<?php echo $fale_conosco_link; ?>"><?php _e('FALE COM A EGALI','egali'); ?></a>
 						<div class="line-v"></div>
-						<a class="links-tool-bar" href="<?php echo get_site_url();?>/base">BASES NO EXTERIOR</a>
+						<a class="links-tool-bar" href="<?php echo get_site_url();?>/base"><?php _e('BASES NO EXTERIOR','egali'); ?></a>
 						<a class="links-tool-bar icons" href="https://www.facebook.com/Egali.Intercambio" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
 						<a class="links-tool-bar icons" href="https://twitter.com/egali_no_mundo" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
 						<a class="links-tool-bar icons" href="https://www.instagram.com/egali_intercambio/" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
 						<a class="links-tool-bar icons" href="https://www.youtube.com/user/CanalEgali?sub_confirmation=1" target="_blank"><i class="zmdi zmdi-youtube-play"></i></a>
 					</div>
 					<div class="col-lg-4">
-						<a class="links-tool-bar p-lr-040" href="http://egali.com.br/area-aluno/login">PORTAL DO ALUNO</a>
+						<a class="links-tool-bar p-lr-040" href="http://egali.com.br/area-aluno/login"><?php _e('PORTAL DO ALUNO','egali') ?></a>
 						<a class="links-tool-bar p-lr-20" href="http://egali.com.br/area-aluno/login"><i class="zmdi zmdi-account-o"></i></a>
 						<div class="line-v m-r-20"></div>
-						<a href="#" class="cta-tool-bar" data-toggle="modal" data-target="#exampleModalCenter">ORÇAMENTO FÁCIL</a>
+						<a href="#" class="cta-tool-bar" data-toggle="modal" data-target="#exampleModalCenter"><?php _e('ORÇAMENTO FÁCIL','egali') ?></a>
 					</div>
 				</div>
 			</div>
@@ -115,7 +115,7 @@
 								<ul class="navbar-nav ml-auto">
 									<li class="nav-item dropdown">
 
-										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ASSUNTOS </a>
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e('ASSUNTOS','egali'); ?> </a>
 
 										<div class="dropdown-menu col-one" aria-labelledby="navbarDropdown">
 											<ul>
@@ -138,7 +138,7 @@
 
 									<li class="nav-item dropdown">
 
-										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PAÍSES </a>
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e('PAÍSES','egali'); ?> </a>
 
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 											<ul>
@@ -163,7 +163,7 @@
 										</div>
 									</li>
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ÚLTIMOS POSTS </a>
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e('ÚLTIMOS POSTS','egali'); ?> </a>
 										<div class="dropdown-menu col-one" aria-labelledby="navbarDropdown">
 											<ul>
 												<?php 
@@ -222,7 +222,7 @@
 									</li>
 									-->
 									<li class="nav-item d-none d-sm-none d-lg-block">
-										<a class="nav-link link-nav" href="<?php echo get_site_url();?>">Site egali</a>
+										<a class="nav-link link-nav" href="<?php echo get_site_url();?>"><?php _e('Site egali','egali'); ?></a>
 										
 									</li>
 									<li class="nav-item d-none d-sm-none d-lg-block">
@@ -230,23 +230,23 @@
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
 										<a class="nav-link" href="<?php echo get_site_url();?>">
-											SITE EGALI
+										<?php _e('SITE EGALI','egali'); ?>
 										</a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link" href="<?php echo get_site_url();?>/loja">NOSSAS LOJAS</a>
+										<a class="nav-link" href="<?php echo get_site_url();?>/loja"><?php _e('NOSSAS LOJAS','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link" href="<?php echo get_site_url();?>/fale-conosco?blog">FALE COM A EGALI</a>
+										<a class="nav-link" href="<?php echo get_site_url();?>/fale-conosco?blog"><?php _e('FALE COM A EGALI','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link" href="<?php echo get_site_url();?>/base">BASES NO EXTERIOR</a>
+										<a class="nav-link" href="<?php echo get_site_url();?>/base"><?php _e('BASES NO EXTERIOR','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link p-lr-040" href="http://egali.com.br/area-aluno/login">PORTAL DO ALUNO</a>
+										<a class="nav-link p-lr-040" href="http://egali.com.br/area-aluno/login"><?php _e('PORTAL DO ALUNO','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">ORÇAMENTO FÁCIL</a>
+										<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter"><?php _e('ORÇAMENTO FÁCIL','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
 										<a class="links-tool-bar icons" href="https://www.facebook.com/Egali.Intercambio"><i class="zmdi zmdi-facebook"></i></a>
@@ -291,7 +291,7 @@
 							<div class="collapse navbar-collapse" id="navbarSupportedContent">
 								<ul class="navbar-nav ml-auto">
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinos </a>
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e('Destinos','egali'); ?> </a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 											<ul>
 
@@ -315,14 +315,14 @@
 												}
 												?>
 												<li>
-													<a class="nav-link active mt-4 mt-sm-3 text-uppercase highlight" href="<?php echo get_site_url();?>/destinos/">Todos os Destinos</a>
+													<a class="nav-link active mt-4 mt-sm-3 text-uppercase highlight" href="<?php echo get_site_url();?>/destinos/"><?php _e('Todos os Destinos','egali'); ?></a>
 												</li>
 											</ul>
 										</div>
 									</li>
 
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INTERCÂMBIO </a>
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e('INTERCÂMBIO','egali'); ?> </a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 											<ul>
 												<?php
@@ -342,37 +342,37 @@
 												}
 												?>
 												<li>
-													<a class="nav-link active mt-4 mt-sm-3 text-uppercase highlight" href="<?php echo get_site_url();?>/intercambios/">Todos os Intercâmbios</a>
+													<a class="nav-link active mt-4 mt-sm-3 text-uppercase highlight" href="<?php echo get_site_url();?>/intercambios/"><?php _e('Todos os Intercâmbios','egali'); ?></a>
 												</li>
 											</ul>
 										</div>
 									</li>
 									<li class="nav-item dropdown">
-										<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/promocoes">PROMOÇÕES </a>
+										<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/promocoes"><?php _e('PROMOÇÕES','egali'); ?> </a>
 									</li>
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											Outros serviços
+										<?php _e('Outros serviços','egali'); ?>
 										</a>
 										<div class="dropdown-menu col-one" aria-labelledby="navbarDropdown">
 											<ul>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/house/">Houses</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/house/"><?php _e('Houses','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/hostel/">Hostels</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/hostel/"><?php _e('Hostels','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/base/">Bases no Exterior</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/base/"><?php _e('Bases no Exterior','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/cambio/">Câmbio</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/cambio/"><?php _e('Câmbio','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/auxilio-visto/">Auxílio Visto</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/auxilio-visto/"><?php _e('Auxílio Visto','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/seguro-viagem/">Seguro Viagem</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/seguro-viagem/"><?php _e('Seguro Viagem','egali'); ?></a>
 												</li>
 											</ul>
 										</div>
@@ -380,30 +380,30 @@
 
 									<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											A Egali
+									<?php _e('A Egali','egali'); ?>
 										</a>
 										<div class="dropdown-menu col-one" aria-labelledby="navbarDropdown">
 											<ul>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/quem-somos/">Quem Somos</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/quem-somos/"><?php _e('Quem Somos','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/loja/">Lojas</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/loja/"><?php _e('Lojas','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/fale-conosco/">Fale Conosco</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/fale-conosco/"><?php _e('Fale Conosco','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/trabalhe-conosco/">Trabalhe Conosco</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/trabalhe-conosco/"><?php _e('Trabalhe Conosco','egali'); ?></a>
 												</li>
 												<li>
-													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/faq/">FAQ</a>
+													<a class="nav-link nav-link-title" href="<?php echo get_site_url();?>/faq/"><?php _e('FAQ','egali'); ?></a>
 												</li>
 											</ul>
 										</div>
 									</li>
 									<li class="nav-item">
-										<a class="cta-nav" href="<?php echo get_site_url();?>/blog">Blog</a>
+										<a class="cta-nav" href="<?php echo get_site_url();?>/blog"><?php _e('Blog','egali'); ?></a>
 									</li>
 
 									<li class="nav-item d-none d-sm-none d-lg-block">
@@ -411,23 +411,23 @@
 									</li>
 									<li class="nav-item links-tool-bar d-none d-lg-none">
 										<a class="nav-link" href="<?php echo get_site_url();?>/blog">
-											BLOG
+										<?php _e('BLOG','egali'); ?>
 										</a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link" href="<?php echo get_site_url();?>/loja">NOSSAS LOJAS</a>
+										<a class="nav-link" href="<?php echo get_site_url();?>/loja"><?php _e('NOSSAS LOJAS','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link" href="<?php echo get_site_url();?>/fale-conosco">FALE COM A EGALI</a>
+										<a class="nav-link" href="<?php echo get_site_url();?>/fale-conosco"><?php _e('FALE COM A EGALI','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link" href="<?php echo get_site_url();?>/base">BASES NO EXTERIOR</a>
+										<a class="nav-link" href="<?php echo get_site_url();?>/base"><?php _e('BASES NO EXTERIOR','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a class="nav-link p-lr-040" href="http://egali.com.br/area-aluno/login">PORTAL DO ALUNO</a>
+										<a class="nav-link p-lr-040" href="http://egali.com.br/area-aluno/login"><?php _e('PORTAL DO ALUNO','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
-										<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">ORÇAMENTO FÁCIL</a>
+										<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter"><?php _e('ORÇAMENTO FÁCIL','egali'); ?></a>
 									</li>
 									<li class="nav-item links-tool-bar d-block d-sm-block d-lg-none">
 										<a class="links-tool-bar icons" href="https://www.facebook.com/Egali.Intercambio"><i class="zmdi zmdi-facebook"></i></a>
