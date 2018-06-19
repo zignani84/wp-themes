@@ -11,7 +11,7 @@ the_post();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
+						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php _e('Home','egali'); ?></a></li>
 						<li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
 					</ol>
 				</nav>
