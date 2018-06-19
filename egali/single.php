@@ -46,8 +46,8 @@ get_header();
 						<div class="card-img-top object-cover" style="background-image: url('<?php echo $image[0]; ?>');"></div>
 						<div class="box-category ml-6 category-color-red"><?php echo esc_html( $categories[0]->name ); ?></div>
 						<div class="card-body space-x">
-							<h1><?php echo $titulo; ?> | por <?php echo $autor; ?></h1>
-							<span class="info-post">Atualizado em <?php echo $data_modificado; ?> / por <?php echo $autor_modificado; ?> / <?php echo $comentarios_total ?> comentários</span>
+							<h1><?php echo $titulo; ?> | <?php _e('por','egali'); ?> <?php echo $autor; ?></h1>
+							<span class="info-post"><?php _e('Atualizado em','egali'); ?> <?php echo $data_modificado; ?> / <?php _e('por','egali'); ?> <?php echo $autor_modificado; ?> / <?php echo $comentarios_total ?> <?php _e('comentários','egali'); ?></span>
 							<?php
  							echo $resumo.'</br>'.$conteudo; 
 							?>
@@ -59,7 +59,7 @@ get_header();
 									?>
 									<div class="img-author"><img src="<?php echo esc_url($avatar); ?>" alt="<?php echo $autor; ?>" title="<?php echo $autor; ?>" class="img-fluid" /></div>
 									<div class="text">
-										<small>Por <?php echo $autor; ?></small>
+										<small><?php _e('Por','egali'); ?> <?php echo $autor; ?></small>
 										<?php
 										if ($autor_descricao)
 										?>
@@ -71,7 +71,7 @@ get_header();
 						</div>
 						<div class="footer-card">
 							<div class="addthis_default_style">
-								<h5>COMPARTILHAR</h5>
+								<h5><?php _e('COMPARTILHAR','egali'); ?></h5>
 								<a class="icons addthis_button_facebook"><i class="zmdi zmdi-facebook"></i></a>
 								<a class="icons addthis_button_twitter"><i class="zmdi zmdi-twitter"></i></a>
 								<!--<a class="icons" href="#"><i class="zmdi zmdi-instagram"></i></a>-->
@@ -91,7 +91,7 @@ get_header();
 									<li class="page-item">
 									<a class="page-link" href="<?php the_permalink(); ?>" aria-label="Previous">
 										<i class="zmdi zmdi-long-arrow-left"></i>
-										ANTERIOR
+										<?php _e('ANTERIOR','egali'); ?>
 									</a>
 									</li>
 								<?php
@@ -110,7 +110,7 @@ get_header();
 								?>
 									<li class="page-item">
 									<a class="page-link" href="<?php the_permalink(); ?>" aria-label="Next">
-										PRÓXIMO
+									<?php _e('PRÓXIMO','egali'); ?>
 										<i class="zmdi zmdi-long-arrow-right"></i>
 									</a>
 									</li>
@@ -138,7 +138,7 @@ get_header();
 					?>
 
 					<div class="main-events mb-4">
-						<h5 class="mb-4">ÚLTIMOS POSTS</h5>
+						<h5 class="mb-4"><?php _e('ÚLTIMOS POSTS','egali'); ?></h5>
 						<ul class="list-news">
 
 							<?php
@@ -167,7 +167,7 @@ get_header();
 							?>
 
 							<li class="border-none">
-								<a class="link-news" href="#"><i class="zmdi zmdi-long-arrow-right"></i>VEJA MAIS POSTS</a>
+								<a class="link-news" href="#"><i class="zmdi zmdi-long-arrow-right"></i><?php _e('VEJA MAIS POSTS','egali'); ?></a>
 							</li>
 						</ul>
 					</div>
@@ -179,7 +179,7 @@ get_header();
 						<img src="<?php echo get_theme_file_uri(); ?>/img/banner-vertical.png" alt="Banner faça acontecer" title="" class="img-fluid d-block d-md-none d-lg-block" />
 						<img src="<?php echo get_theme_file_uri(); ?>/img/banner-horizontal.png" alt="Banner faça acontecer" title="" class="img-fluid d-none d-md-block d-lg-none" />
 						<div class="bg-btn">
-							<a href="#" class="btn btn-secondary">VEJA MAIS COMO</a>
+							<a href="#" class="btn btn-secondary"><?php _e('VEJA MAIS COMO','egali'); ?></a>
 						</div>
 					</div>
 				</div>
@@ -217,7 +217,7 @@ get_header();
 
 					<div class="row">
 						<div class="col-12">
-							<h4>VOCÊ TAMBÉM PODE GOSTAR</h4>
+							<h4><?php _e('VOCÊ TAMBÉM PODE GOSTAR','egali'); ?></h4>
 						</div>
 					</div>
 					<div class="row">
@@ -241,7 +241,7 @@ get_header();
 									<div class="line-h-6"></div>
 									<h5><?php echo $titulo; ?></h5>
 									<p class="card-text"><?php echo $resumo; ?></p>
-									<a href="<?php echo $link;?>" class="card-link"><i class="zmdi zmdi-long-arrow-right"></i> LEIA MAIS</a>
+									<a href="<?php echo $link;?>" class="card-link"><i class="zmdi zmdi-long-arrow-right"></i> <?php _e('LEIA MAIS','egali'); ?></a>
 								</div>
 							</div>
 						</div>
@@ -254,7 +254,7 @@ get_header();
 					</div>
 					<div class="row">
 						<div class="col-12 text-center">
-							<a href="#" class="btn btn-secondary">VEJA TODOS OS POSTS</a>
+							<a href="#" class="btn btn-secondary"><?php _e('VEJA TODOS OS POSTS','egali'); ?></a>
 						</div>
 					</div>
 
