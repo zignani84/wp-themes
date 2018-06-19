@@ -5,7 +5,7 @@ get_header();
     <!-- MAIN -->
     <main>
 		<!-- BREADCRUMB -->
-		<section class="main-breadcrumb">
+		<section class="main-breadcrumb mt-150">
 			<div class="container">
 				<div class="row">
 					<nav aria-label="breadcrumb">
@@ -18,7 +18,7 @@ get_header();
 			</div>
 		</section>
 		<!-- CONTENT PAGE DESCRIPTION -->
-		<section class="main-description-page mt-150">
+		<section class="main-description-page">
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-12">
