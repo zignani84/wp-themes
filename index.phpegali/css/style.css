@@ -1,0 +1,265 @@
+/**##### PAG DESTINOS #####**/
+.mt-150{margin-top: 150px;}
+/** BANNER INTERNAL **/
+.banne-internal{width: 100%; height: 300px; background-image: url('../img/banner-destinos.png');background-repeat: no-repeat; background-size: cover; background-position:center;}
+.banne-internal-intercambio{width: 100%; min-height: 300px; max-height: 300px; padding: 55px 0; background-image: url('../img/banner-intercambio.png');background-repeat: no-repeat; background-size: cover; background-position:center; color:#fff}
+/** MENU DESTINY **/
+.main-menu-internal{background-image: linear-gradient(90deg,#05F0FE 37%, #110034 35%); font-family: 'Oswald', sans-serif;}
+.main-menu-internal h4{    padding: 13px 13px 13px 0; background-color: #05F0FE;}
+.destiny{background-color: #05F0FE; font-weight:300; font-size: 1.125em; color: #110034;text-transform: uppercase; display: table; padding: 8px 20px; position: absolute; top: -43px; }
+.main-menu-internal .navbar{padding: 0 !important; position: relative;}
+.main-menu-internal .navbar::before{background-image: url('../img/bg-pattern-menu-internal.svg'); background-repeat: no-repeat; width: 67px; height: 80px;content: "";position: absolute; top:-55px; right: 0; z-index: 10;}
+.main-menu-internal .navbar-expand-lg .navbar-nav{padding: 0; margin-right: 100px;}
+.main-menu-internal .nav-link{font-weight: 300; font-size: 1.125em; text-transform: uppercase; color: #fff !important; margin-left: 30px;}
+.main-menu-internal h4{margin: 0; color:#110034}
+.main-menu-internal h4 span{font-weight: 300;}
+/** BREADCRUMB **/
+.main-breadcrumb{background-color: #fafafb; border-bottom: 2px solid #eeeeef; padding: 13px 0;}
+.main-breadcrumb .breadcrumb{font-size:0.563em; font-weight: 400; text-transform: uppercase; padding: 0 15px; margin-bottom: 0; background-color: transparent;}
+.main-breadcrumb .breadcrumb .breadcrumb-item a{color: #90A3A4; text-decoration: none;}
+.main-breadcrumb .breadcrumb  .breadcrumb-item.active{color:#110034; text-decoration: underline}
+/** CONTENT DESCRIPTION PAGE **/
+.main-description-page{padding: 60px 0; position: relative;}
+.main-description-page .object-cover{width: 100%; height: 310px; background-size: cover; background-position: center center; background-repeat: no-repeat;}
+.main-description-page .title-description{padding-left: 50px; position: relative;}
+.main-description-page .title-description::before{width: 80%;height: 100%;content: "";position: absolute;left: -30px; top: -30px; border: 4px solid #05F0FE; z-index: -1;}
+.main-description-page .title-description h1{color: #110034; line-height: 62px; margin-bottom: 15px; margin-top: 30px; text-transform: none;}
+.main-description-page .main-icons span, .main-description-page p, .main-description-page ul, .main-description-page ol {font-size: 0.813em; color: #90A3A4; line-height: 20px;}
+.line-h-100{width: 100%; height: 1px; background-color:rgba(144, 163, 164, 0.4); margin-top: 45px;}
+.main-description-page .box-icon{width: 80px; border-radius: 100%; background-color: #FE005A; color: #fff; font-size: 2.5em; text-align: center; padding: 10px 0; display: table; float: left;}
+.main-description-page .main-icons{float: left; margin-top: 45px; width: 100%;}
+.main-description-page .text-icons{float: left; margin: 10px 0 0 25px;}
+.main-description-page .text-icons h4{border-left: none; padding-left: 0; text-transform: none;}
+.line-h-166{width: 166px; height: 4px; background-color: #05F0FE; position: relative; z-index: 9; margin-top: -4px;}
+/** GALERY IMAGES E VIDEOS **/
+.main-gallery{position: relative; z-index: 9; margin-bottom: -125px;    background-image: linear-gradient(180deg,#ffffff 65%, #0f2452 28.05%);}
+.main-gallery .object-cover{width: 100%; height: 180px; background-image: url('../img/montreal-01.png'); background-repeat: no-repeat; background-position: center center; background-size: cover }
+.main-gallery .owl-dot span{width: 10px; max-width: 10px!important; height: 10px !important;; padding: 4px 0; border-radius: 100%; -webkit-box-flex: 0; -webkit-flex: none; background-color: transparent !important; border: 1px solid #fff;}
+.main-gallery .owl-dot.active span{background-color: #05F0FE !important; border: 1px solid #05F0FE !important;}
+#html5-watermark{display: none!important;}
+#html5-social{display: none !important;}
+.wpcf7-form-control-wrap.nome, .wpcf7-form-control-wrap.email{width:100%;}
+.form-check-input{margin-left:0;}
+/**LIVING GUIDE **/
+.living-guide{background-color: #0f2452; padding: 200px 0 70px 0; color: #fff;padding: 70px 0;}
+.living-guide h4, .living-guide h2{color:#fff;}
+.living-guide .box-info{width: 100%; float: left; border-left: 1px solid #fff; padding-left: 20px; margin-bottom: 30px;}
+.living-guide span{color: #fff; font-size: 0.813em; display: table; margin-bottom: 5px;}
+.living-guide b, .living-guide span b{text-transform: uppercase;}
+.living-guide .phone-emergency{background-color: #fff; font-size: 0.813em; color: #110034; display: table; padding: 14px 20px; text-transform: uppercase; border-radius: 30px;}
+.living-guide h6{font-size: 0.875em; color: #fff; line-height: 20px; margin-bottom:10px;}
+.living-guide h5{margin-bottom: 40px;}
+.living-guide .line-left{border-left: 1px solid rgba(255, 255, 255, 0.1);}
+.living-guide .line-h-white-100{width: 100%; height: 1px; background-color:rgba(144, 163, 164, 0.4);; margin: 45px 0;}
+.line-v-2{width: 2px; height: 42px; float: left; margin-right: 20px; background-color: #fff; margin-top: 25px;}
+.living-guide .content-txt{color: #fff; font-size: 0.813em; display: table; margin-top: 25px;}
+
+/**CIDADES **/
+.lista-cidades{background-color: #0f2452; padding: 200px 0 70px 0; color: #fff;}
+.lista-cidades h4, .lista-cidades h2{color:#fff;}
+.lista-cidades .box-info{width: 100%; float: left; border-left: 1px solid #fff; padding-left: 20px; margin-bottom: 30px;}
+.lista-cidades span{color: #fff; font-size: 0.813em; display: table; margin-bottom: 5px;}
+.lista-cidades b, .lista-cidades span b{text-transform: uppercase;}
+.lista-cidades .phone-emergency{background-color: #fff; font-size: 0.813em; color: #110034; display: table; padding: 14px 20px; text-transform: uppercase; border-radius: 30px;}
+.lista-cidades h6{font-size: 0.875em; color: #fff; line-height: 20px; margin-bottom:10px;}
+.lista-cidades h5{margin-bottom: 40px;}
+.lista-cidades .line-left{border-left: 1px solid rgba(255, 255, 255, 0.1);}
+.lista-cidades .line-h-white-100{width: 100%; height: 1px; background-color:rgba(144, 163, 164, 0.4);; margin: 45px 0;}
+.line-v-2{width: 2px; height: 42px; float: left; margin-right: 20px; background-color: #fff; margin-top: 25px;}
+.lista-cidades .content-txt{color: #fff; font-size: 0.813em; display: table; margin-top: 25px;}
+.lista-cidades .box-itens{list-style: none; padding: 0; margin-bottom: 30px;font-family: 'Oswald', sans-serif;font-size: 1.125em;}
+.lista-cidades .box-itens.mt-5{margin-top: 2.7rem!important;}
+.lista-cidades .box-itens .itens-title .itens-nav{font-weight: 400; color:#fff;}
+.lista-cidades .box-itens .itens .itens-nav{font-weight: 300; color:#05F0FE;}
+
+/** ATTRACTIONS **/
+.main-cards-slider{background-color:#110034; color: #fff; padding: 100px 0; position: relative; z-index: 9;}
+.main-cards-slider .object-cover{width: 100%; height: 180px; background-image: url('../img/img-attractions-02.png'); background-repeat: no-repeat; background-position: center center; background-size: cover }
+.main-cards h4, .main-cards-slider h4{color: #fff;}
+.main-cards-slider .card{background-color: transparent;}
+.main-cards-slider .card .card-body{padding: 20px 0 0 0; font-size: 0.813em;}
+.main-cards-slider .card .card-body span{font-weight: 700; text-transform: uppercase;}
+.main-cards-slider .owl-theme .owl-dots .owl-dot span, .main-cards-slider.owl-theme .owl-dots .owl-dot span{border: 1px solid #90A3A4; background-color: transparent; margin-top: 60px;}
+.main-cards-slider .owl-theme .owl-dots .owl-dot.active span, .main-cards-slider .owl-theme .owl-dots .owl-dot:hover span{border-color: #05F0FE; background-color: #05F0FE;}
+/**##### PAG INTERCAMBIO E INTERCAMBIO DETALHE #####**/
+/** ITENS CARDS **/
+.main-cards{background-color: #0F2452; padding: 80px 0;}
+.main-cards .object-cover{width: 100%; height: 174px; background-image: url('../img/img-so-egali.png'); background-repeat: no-repeat; background-position: center center; background-size: cover }
+.bg-cards{background-color: #110034}
+.bg-internal-diferetial{background-color: #fafafb; border-top: 1px solid #EDF2F5;}
+.main-cards .card{border:none; border-radius: 0; margin-bottom: 20px;}
+.main-cards .card:hover{background-color: #05F0FE; cursor: pointer;}
+.main-cards .card:hover p a,
+.main-cards .card a:hover,
+.main-cards .card h5{color: #110034; text-decoration: none;}
+.main-cards .card p a, .main-cards .card p {font-size: 0.750em; color: #90A3A4; line-height: 17px;}
+.bg-internal-diferetial h4{border-left: none;}
+.main-exchange.no-after::after{background-image: none;}
+.main-exchange.no-after{padding: 0 0 70px 0;}
+/** DESCRIPTION EXCHANGE**/
+.main-description-page .retangulo-after{width: 85%; height: 60%;position: absolute;right: 50px; top: 30px; border: 4px solid #05F0FE;}
+.main-description-page .retangulo-after::after{width: 98px;height: 95px;content: "";position: absolute;right: -40px; top: -40px; background-color: transparent; z-index: 999; border:4px solid #05F0FE;}
+.main-description-page .to-share{float: left;border-left: 4px solid #05F0FE; padding-left: 10px; font-family: 'Oswald', sans-serif; font-weight: 300; color: #211F1F; font-size: 0.938em; text-transform: uppercase}
+.main-description-page .to-share a{ margin-left: 26px; color: #211F1F; font-size: 1m}
+.main-description-page .line-v-100{width: 2px; height: 100%; background-color: #EDF2F5}
+.main-description-page .line-h-100{background-color: #EDF2F5}
+/** DESCRIPTION COURSES**/
+.description-courses{list-style: none; margin: 0; padding: 0;font-family: 'Oswald', sans-serif; font-weight: 300; color: #211F1F;font-size: 1.125em}
+.description-courses li:first-child{padding: 0 0 15px 0;}
+.description-courses li{border-bottom: 1px solid #EDF2F5; padding: 15px 0;}
+.description-courses li i{color: #05F0FE; font-size: 1.250em; margin-right: 10px;}
+/** DESCRIPTION COURSES **/
+.main-destinations{background-color: #110034; padding: 70px 0; color: #fff}
+.main-destinations h5{color: #fff; border-left: 4px solid #05F0FE; padding-left:10px; }
+.main-destinations small{text-transform: none; padding-bottom: 5px; display: table}
+.main-destinations .box-itens{list-style: none; padding: 0; margin-bottom: 30px;}
+.main-destinations .box-itens .itens-title .itens-nav{font-weight: 300; color:#fff; font-size: 1.125em}
+.main-destinations .box-itens .itens .itens-nav{font-weight: 300; color:#05F0FE;font-size: 1.125em}
+/**##### PAG PROMOÇÕES #####**/
+/** CARDS PROMOÇÕES **/
+.main-promotion{padding: 70px 0; position: relative; background-color: #f5f5f7; z-index: 9}
+.main-promotion .object-cover{width: 100%; height: 464px; background-image: url('../img/img-pacote-01.png'); background-repeat: no-repeat; background-position: center center; background-size: cover }
+.main-promotion::after{background-image: repeating-linear-gradient(160deg, transparent -20px, transparent 190px, #110034 191px, #110034 206px, transparent 208px);min-width: 41%;min-height: 25%;content: "";position: absolute;right: 0;top: 0;z-index: -1;}
+.main-promotion .card{margin-bottom: 15px; background-color: transparent;}
+.main-promotion .card, .main-promotion .card-img-top{border: none; border-radius: 0;}
+.main-promotion .card-img-overlay{top: inherit; color: #fff; padding: 40px 30px}
+.main-promotion .card-img-overlay p{font-size: 0.8125em; line-height: 20px;}
+/** GO LEST **/
+.main-go-lest{font-family: 'Oswald', sans-serif; color: #110034; padding: 35px 0;position: relative; z-index: 9;}
+.main-go-lest::after{width: 54%; height: 100%; background-image: url('../img/img-bg-go-lets.jpg'); background-repeat: no-repeat; background-position: top right;background-size: cover; content: ""; position: absolute; right: 0; top:0; z-index: -2;}
+.main-go-lest .txt-one{float: left; padding-top: 35px; padding-right: 22px; position: relative; z-index: -10;}
+.main-go-lest .txt-one::after{width: 100%; height: 170px; left: 40%; top: 2px; content: ""; border: 4px solid #05F0FE; position: absolute; z-index: -1;;}
+.main-go-lest .txt-two{float: left; color: #fff}
+.main-go-lest .txt-two h4{border-left: none; padding-left: 0; text-align: right; padding-right: 15px; color:#fff;}
+.main-go-lest .txt-two span{font-size: 9.250em; font-weight: 700; line-height: 50px;color: #110034;}
+.main-go-lest .txt-two span + span{color: #fff;}
+/**##### PAG BASE EXTERIOR #####**/
+/** DESCRIPTION PAGE **/
+.animate-after{position: relative}
+.animate-after::after{width: 75%; height: 70%; position:absolute; content: ""; border: 4px solid #05F0FE;z-index: -1;top: 30px;right: 0;}
+/** ACCOMMODATION **/
+.main-cards.main-accommodation {background-color: #110034}
+.main-cards.main-accommodation .card-body{position: relative; z-index: 9;}
+.main-cards.main-accommodation .card-body .btn-secondary{padding: 13px 65px; margin: 35px 0 0px 0;}
+.main-cards.main-accommodation .card:hover .btn-secondary{ color: #211F1F; background-color: #fff; border:2px solid #05F0FE; cursor: pointer}
+/** BASE **/
+.main-base{background-color: #0F2452; color: #fff;}
+.main-base .base-itens{padding: 100px 80px; font-size: 0.813em; display: table}
+.main-base .base-itens h5{border-left: 4px solid #05F0FE; padding-left: 10px;}
+.main-base .base-itens .row-itens{width: 100%; float: left}
+.main-base .base-itens .col-itens{width: 50%; float: left; margin-top: 30px; padding-right: 20px;}
+.main-base .base-itens .col-itens span{width: 100%;float: left;}
+/**##### PAG RESULTADO DE BUSCA #####**/
+/** DESCRIPTION PAGE **/
+.main-result-search{padding: 40px 0;}
+.main-result-search .line-grey{background-color: #EDF2F5}
+.main-result-search .btn-primary{width: 100%;padding: 11px 34px; font-size: 0.875em}
+.main-result-search .btn-primary-alternate{background: #fff; border: 2px solid rgba(144, 163, 164, 0.2); }
+.main-result-search .form-control{background-color: #110034; border: none; border-radius: 100px;font-family: 'Oswald', sans-serif; font-weight: 300; font-size:0.875em; color: #fff; height: 47px !important; padding: 15px 50px 15px 30px;}
+.main-result-search .form-control::-webkit-input-placeholder{color:#fff; text-transform: uppercase;}
+.main-result-search .zmdi-search{position: absolute; z-index: 9; top: 11px; right: 40px;}
+.main-result-search h6{font-weight: 300; color: #211F1F}
+.main-result-search p{font-size: 0.813em; color: #90A3A4;}
+.main-result-search span{font-size: 0.813em; color: #05F0FE;}
+/**##### PAG FAQ #####**/
+/** ACCORDION **/
+.main-accordion{padding: 40px 0; }
+.main-accordion p{line-height: 20px; font-size: 0.813em;color: #90A3A4; }
+.main-accordion .btn-link{color:#211F1F; font-weight: 300; }
+.main-accordion .line-h-6{margin: 50px 0 20px 0;}
+.main-accordion .card{border-radius: 0; border:none;}
+.main-accordion .card:first-child{border-radius: 0; border-top: 1px solid #EDF2F5; border-bottom: 1px solid #EDF2F5;}
+.main-accordion .card{border-bottom: 1px solid #EDF2F5;}
+.main-accordion .card .card-header{border-radius: 0; border:none; background-color: transparent}
+.main-accordion .card .card-body{border-top: 1px solid #EDF2F5; background-color: rgb(237, 242, 245, 0.4); font-size: 0.813em; color:#90A3A4; padding: 45px 68px}
+.main-accordion .card .btn-link .zmdi-chevron-down, .main-accordion .card .btn-link.collapsed .zmdi-chevron-up{display: none;}
+.main-accordion .card .btn-link .zmdi-chevron-up, .main-accordion .card .btn-link.collapsed .zmdi-chevron-down{display: table; float: left; font-size: 2.5em; color: #05F0FE; border-right: 1px solid #EDF2F5; padding-right: 20px; margin-right: 25px}
+.main-accordion .btn{width: 100%; text-align: left; line-height: 2.5;}
+/**##### PAG QUEM SOMOS #####**/
+/** DESCRIPTION PAGE **/
+.main-description-page .animate-img{position: relative; z-index: 9}
+.main-description-page .animate-img::after{width: 85%; height: 100%; content: ""; border: 4px solid #05F0FE; position: absolute; top: -40px; right: 0; z-index: -1}
+/** FEATURED **/
+.main-featured{padding-bottom: 100px;}
+.main-featured .animate-img::after{width: 85%; height: 100%; content: ""; border: 4px solid #05F0FE; position: absolute; top: 40px; right: 0; z-index: -1}
+/** COL TWO TEXT **/
+.main-two-text{padding: 50px 0 100px 0}
+.main-two-text h5{border-left: 4px solid #05F0FE; padding-left: 10px; color: #110034}
+.main-two-text p, .main-two-text ul{font-size: 0.813em; color: #90A3A4;}
+/**##### PAG NOSSAS LOJAS #####**/
+/** SECTION STORES **/
+.main-stores{background-color: #110034;padding: 90px 0;}
+.main-stores .field-floating{min-width: 60%;width: auto;height: 50px !important; position: absolute; display: table; top:-115px; border: 1px solid #EEEEEF; border-radius: 30px; box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1); font-family: 'Oswald', sans-serif; font-weight: 300; font-size: 1.125em; text-transform: uppercase}
+.main-stores .field-floating.field-col-left{right: 15px;}
+.main-stores .field-floating.field-col-center{left: 50%; margin-left: -112px;}
+.main-stores .field-floating.field-col-right{left: 15px;}
+.main-stores .field-floating option{text-transform: none;}
+.main-stores .card{border-radius: 0;}
+.main-stores .card-title{text-transform: none; color: #110034}
+.main-stores .card-text{font-size: 0.813em; color: #90A3A4; line-height: 20px;}
+.main-stores .btn-primary{font-size: 0.688em}
+.main-stores .btn-primary-alternate{background: #fff; border: 2px solid rgba(144, 163, 164, 0.2); }
+.main-stores .px-100{padding-left: 100px; padding-right: 100px;}
+.main-stores .no-after::after{display: none;}
+/**##### PAG FALE CONOSCO #####**/
+/** FORM CONTATO **/
+.main-contact{padding: 40px 0; color: #90A3A4; position: relative;}
+.main-contact p{line-height: 20px; color: #90A3A4; font-size: 0.813em; }
+.main-contact h1 {margin-bottom: 30px; color: #110034}
+.main-contact .form-control{background-color: #110034; border: none; border-radius: 100px;font-family: 'Oswald', sans-serif; font-weight: 300; font-size:0.875em; color: #fff; height: 50px !important; padding: 15px 30px;}
+.main-contact .form-control::-webkit-input-placeholder{color:#fff}
+.main-contact label{margin-left: 13px; margin-right: 13px;font-size: 0.813em;}
+.main-contact select.form-control{appearance: none;-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; position: relative; background-image: url('../img/icon-select.png'); background-repeat: no-repeat; background-position: 96%;}
+.main-contact textarea.form-control{height: 174px !important; border-radius: 10px; padding: 33px;}
+.main-contact .form-check-label{font-weight: 700;}
+.main-contact .container::before{width: 50%; height: 60%; content:""; position: absolute; right: 5%; top:15%; border: 4px solid #05F0FE; }
+.main-contact .container::after{width: 8%; height: 8%; content:""; position: absolute; right: 2%; top:11%; border: 4px solid #05F0FE; }
+/**##### PAG TRABALHE CONOSCO #####**/
+.main-work .text-page{width: 100%;font-family: 'Oswald', sans-serif; font-weight: 300; font-size: 1.125em !important; color: #211F1F}
+.main-work .text-page span{font-weight: 700; color: #110034}
+.main-work .text-page .mail{font-weight: 700; color: #05F0FE}
+.main-work h6{font-weight: 300;}
+.main-work .line-h-100{background-color: #EDF2F5}
+.main-work h5{color: #110034}
+.main-work .line{width: 2px; height: 100%; float: left; background-color: #90A3A4; margin-left: 10px;}
+.main-accordion.main-work .btn-link{font-size: 1.250em; font-weight: 700; color: #110034; text-transform: uppercase;}
+@media (min-width: 320px) and (max-width: 767px) {
+    .main-menu-internal{background-image: none; background-color: #05F0FE; color: #110034;}
+    .main-menu-internal .navbar{margin-right: 0;}
+    .main-menu-internal .navbar::before{display: none;}
+    .main-menu-internal .navbar-toggler{font-size: 1.625em !important; border: none; outline: none; cursor: pointer;}
+    .main-menu-internal .nav-link{margin-left: 0; color: #110034 !important; margin-top: 15px;}
+    .main-description-page .title-description{padding-left: 0;}
+    .main-description-page .title-description::before{display: none;}
+    .main-description-page .box-icon, .main-description-page .text-icons{float: none; margin-left: auto; margin-right: auto;}
+    .main-description-page .text-icons{margin: 10px 0 0; text-align: center;}
+    .main-description-page .text-icons h4{font-size: 1.5em}
+    .main-contact .container::after, .main-contact .container::before{display: none;}
+    .main-go-lest .txt-two h4, .main-go-lest{text-align:center; color: #110034;}
+    .main-go-lest .txt-two{width: 100%; margin-top: 15px;}
+    .main-go-lest .txt-one::after{display: none}
+    .main-base .base-itens{padding: 50px 0;}
+    .main-featured .animate-img::after, .main-description-page .animate-img::after{display: none}
+    .main-stores .field-floating{position: relative; width: 100%; top:-30px;}
+    .main-stores .field-floating.field-col-left{right: 0;}
+    .main-stores .field-floating.field-col-center{left: 0; margin-left: 0;}
+    .main-stores .field-floating.field-col-right{left: 0;}
+}
+@media (max-width: 768px){
+    .main-menu-internal{background-image: none; background-color: #05F0FE; color: #110034;}
+    .main-menu-internal .navbar{margin-right: 0;}
+    .main-menu-internal .navbar::before{display: none;}
+    .main-menu-internal .navbar-toggler{font-size: 1.625em !important; border: none; outline: none; cursor: pointer;}
+    .main-menu-internal .nav-link{margin-left: 0; color: #110034 !important; margin-top: 15px;}
+    .main-go-lest .txt-two h4, .main-go-lest .txt-two span + span{color:#110034;}
+    .main-go-lest::after{background-image: none;}
+    .main-go-lest .txt-one::after{display: none}
+    .main-description-page .animate-img::after{display: none}
+    .main-stores .field-floating{position: relative; width: 100%; top:-30px;}
+    .main-stores .field-floating.field-col-left{right: 0;}
+    .main-stores .field-floating.field-col-center{left: 0; margin-left: 0;}
+    .main-stores .field-floating.field-col-right{left: 0;}
+}
+@media (min-width: 1200px) and (max-width: 1440px){
+    .main-go-lest::after{width: 56%;}
+}

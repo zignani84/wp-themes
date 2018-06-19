@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3644 204 67 79.248">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #05f0fe;
+      }
+    </style>
+  </defs>
+  <g id="icon-triple-blue-lines" transform="translate(3560 3)">
+    <rect id="element" class="cls-1" width="76.227" height="1.971" transform="translate(84 278.541) rotate(-30)"/>
+    <rect id="element-2" data-name="element" class="cls-1" width="76.227" height="1.971" transform="translate(84 258.827) rotate(-30)"/>
+    <rect id="element-3" data-name="element" class="cls-1" width="76.227" height="1.971" transform="translate(84 239.113) rotate(-30)"/>
+  </g>
+</svg>
