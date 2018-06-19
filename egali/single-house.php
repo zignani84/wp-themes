@@ -47,8 +47,8 @@ wp_reset_query();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/house/">houses egali</a></li>
+						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php _e('Home','egali'); ?></a></li>
+						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>/house/"><?php _e('Houses Egali','egali'); ?></a></li>
 						<li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
 					</ol>
 				</nav>
@@ -60,7 +60,7 @@ wp_reset_query();
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-12">
-					<h1>House <?php the_title();?></h1>
+					<h1><?php _e('House','egali'); ?> <?php the_title();?></h1>
 					<div class="line-h-6 mt-4"></div>
 				</div>
 			</div>
@@ -79,7 +79,7 @@ wp_reset_query();
 					<?php
 					if($linkDestino) {
 						?>
-						<a href="<?php echo $linkDestino;?>" class="btn btn-secondary">SOBRE <?php the_title();?></a>
+						<a href="<?php echo $linkDestino;?>" class="btn btn-secondary"><?php _e('SOBRE','egali'); ?> <?php the_title();?></a>
 						<?php
 					}
 					?>
@@ -96,7 +96,7 @@ wp_reset_query();
 		<section class="main-gallery" style="background-image: none;" id="fotosVideos">
 			<div class="container">
 				<div class="row">
-					<div class="col-12"><h4>FOTOS E VÍDEOS</h4></div>
+					<div class="col-12"><h4><?php _e('FOTOS E VÍDEOS','egali'); ?></h4></div>
 				</div>
 				<div class="row">
 					<div class="col-12">
