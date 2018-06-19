@@ -18,8 +18,8 @@ $locaisRelacionados = get_the_terms($post->ID,"local");
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
-						<li class="breadcrumb-item"><a href="<?php echo get_site_url();?>/intercambio">Intercâmbios</a></li>
+						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php _e('Home','egali'); ?></a></li>
+						<li class="breadcrumb-item"><a href="<?php echo get_site_url();?>/intercambio"><?php _e('Intercâmbios','egali'); ?></a></li>
 						<li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
 					</ol>
 				</nav>
@@ -36,7 +36,7 @@ $locaisRelacionados = get_the_terms($post->ID,"local");
 				</div>
 				<div class="col-12 col-lg-3">
 					<div class="to-share mt-3 addthis_toolbox addthis_default_style">
-						<span class="float-left">Compartilhar</span>
+						<span class="float-left"><?php _e('Compartilhar','egali'); ?></span>
 						<a class="addthis_button_facebook"><i class="zmdi zmdi-facebook"></i></a>
 						<a class="addthis_button_twitter"><i class="zmdi zmdi-twitter"></i></a>
 						<!--<a class="addthis_button_instagram"><i class="zmdi zmdi-instagram"></i></a>-->
@@ -51,7 +51,7 @@ $locaisRelacionados = get_the_terms($post->ID,"local");
 					echo $textoPrincipal;
 					?>
 					<div class="line-h-100"></div>
-					<a href="<?php echo get_site_url();?>/fale-conosco" class="btn btn-secondary no-bg-after">FALE CONOSCO</a>
+					<a href="<?php echo get_site_url();?>/fale-conosco" class="btn btn-secondary no-bg-after"><?php _e('FALE CONOSCO','egali'); ?></a>
 				</div>
 				<div class="d-none d-lg-block col-lg-1">
 					<div class="line-v-100 mx-auto"></div>
