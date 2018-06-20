@@ -89,7 +89,7 @@ function intercambio_cpt_metaboxCallback() {
 	$intercambio_dados = get_post_meta($post->ID,'intercambio_dados',true);
 
 	//Promoção
-	add_meta_box('intercambio_promocao', __('Promoção'),'intercambio_metaboxPromocao','intercambio','normal');
+	//add_meta_box('intercambio_promocao', __('Promoção'),'intercambio_metaboxPromocao','intercambio','normal');
 
 	//Imagem Destaque
 	add_meta_box('intercambio_imagemDestaque', __('Imagem Destaque'),'intercambio_metaboxImagemDestaque','intercambio','normal');
@@ -117,8 +117,8 @@ function save_intercambio_metadata($post_id){
 		update_post_meta($post_id,'intercambio_textoPrincipal',$_POST["intercambio_textoPrincipal"]);
 
 		//flag promoção
-		if(!isset($_POST["intercambio_promocao"])) $_POST["intercambio_promocao"] = 0;
-		update_post_meta($post_id,'intercambio_promocao',$_POST["intercambio_promocao"]);
+		//if(!isset($_POST["intercambio_promocao"])) $_POST["intercambio_promocao"] = 0;
+		//update_post_meta($post_id,'intercambio_promocao',$_POST["intercambio_promocao"]);
 
 		//demais dados
 		update_post_meta($post_id,'intercambio_dados',$_POST["intercambio_dados"]);
@@ -132,7 +132,7 @@ function save_intercambio_metadata($post_id){
 
 
 // 1. Promoção
-function intercambio_metaboxPromocao() {
+/* function intercambio_metaboxPromocao() {
 	global $post;
 
 	$intercambio_promocao = get_post_meta($post->ID,'intercambio_promocao',true);
@@ -153,7 +153,7 @@ function intercambio_metaboxPromocao() {
 	</div>
 
 	<?php
-}
+} */
 
 
 
@@ -232,11 +232,11 @@ function intercambio_metaboxTextoApresentacao() {
 				</div>
 			</div>
 
-			<div class="col-md-12">
+<!-- 			<div class="col-md-12">
 				<div class="checkbox">
-					<label><input type="checkbox" value="1" name="intercambio_promocao" <?php if($intercambio_promocao) echo "checked"; ?>>Em promoção</label>
+					<label><input type="checkbox" value="1" name="intercambio_promocao" <?php //if($intercambio_promocao) echo "checked"; ?>>Em promoção</label>
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 

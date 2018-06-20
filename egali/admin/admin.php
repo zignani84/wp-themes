@@ -39,6 +39,9 @@ function registraCPTypes() {
 	//egali hostels
 	require "inc_cpt_hostels.php";
 
+	//promocoes
+	require "inc_cpt_promocoes.php";
+
 	flush_rewrite_rules();
 
 }
@@ -66,7 +69,7 @@ function registraTaxonomias() {
 		'query_var'         => true,
 		'rewrite'           => array('slug' => 'local', 'with_front' => false)
 	);
-	register_taxonomy('local',array('post','page','base','depoimento','destino','hostel','house','intercambio'),$taxonomy_args);
+	register_taxonomy('local',array('post','base','depoimento','destino','hostel','house','intercambio'),$taxonomy_args);
 
 
 	//Locais de Lojas

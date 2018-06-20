@@ -12,8 +12,8 @@ get_header();
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">PROMOÇÕES</li>
+						<li class="breadcrumb-item"><a href="#">Home','egali')?></a></li>
+						<li class="breadcrumb-item active" aria-current="page">PROMOÇÕES','egali')?></li>
 					</ol>
 				</nav>
 			</div>
@@ -24,7 +24,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col-9">
-					<h1>PROMOÇÕES DO MÊS</h1>
+					<h1>PROMOÇÕES DO MÊS','egali')?></h1>
 					<div class="line-h-6 mt-4"></div>
 				</div>
 			</div>

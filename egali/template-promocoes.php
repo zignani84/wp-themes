@@ -4,36 +4,36 @@
  */
 
 get_header();
+the_post();
 ?>
 
 <!-- MAIN -->
 <main>
 	<!-- BREADCRUMB -->
-	<section class="main-breadcrumb">
+	<section class="main-breadcrumb mt-150">
 		<div class="container">
 			<div class="row">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">Promoções</li>
+						<li class="breadcrumb-item"><a href="<?php echo get_site_url();?>"><?php _e('Home','egali')?></a></li>
+						<li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
 					</ol>
 				</nav>
 			</div>
 		</div>
 	</section>
 	<!-- CONTENT PAGE DESCRIPTION -->
-	<section class="main-description-page mt-150">
+	<section class="main-description-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-9">
-					<h1>PROMOÇÕES DO MÊS</h1>
+					<h1><?php _e('PROMOÇÕES DO MÊS','egali')?></h1>
 					<div class="line-h-6 mt-4"></div>
 				</div>
 			</div>
 			<div class="row mt-5">
 				<div class="col-12 col-sm-7 col-lg-7">
 					<?php
-						the_post();
 						the_content();
 					?>
 				</div>
@@ -45,50 +45,34 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<?php
-				//busca posts (intercambios) com meta "promoção" = 1
-				global $wpdb;
-				$buscaPromo = $wpdb->get_results("SELECT * FROM `".$wpdb->postmeta."` WHERE meta_key='intercambio_promocao' AND meta_value='1'");
-				if(is_array($buscaPromo) && !empty($buscaPromo) && isset($buscaPromo[0])) {
-					$ids = array();
-					foreach($buscaPromo as $promo) {
-						$ids[] = intval($promo->post_id);
-					}
-					$args = array(
-						'post_type' => 'intercambio',
-						'post__in' => $ids
+					$argsPromocoes = array(
+						'post_type' => 'promocao'
 					);
-					$posts = get_posts($args);
-					foreach ($posts as $p) {
-						$postAtual = $p->ID;
-						$titulo = $p->post_title;
-						$fraseDestaque = get_post_meta($postAtual,"intercambio_fraseDestaque",true);
-						$intercambio = get_post_meta($postAtual,"intercambio_dados",true);
-						$link = get_post_permalink($postAtual);
-						$imgUrl = get_relative_thumb($intercambio["imagemDestaque"],'medium');
+					$promocoes = new WP_Query($argsPromocoes);
+					if($promocoes->have_posts()) {
+						while($promocoes->have_posts()) {
+							$promocoes->the_post();
+							$promocoes_id = get_the_ID();
+							$titulo = get_the_title();
+							$promocao = get_post_meta($promocoes_id,"promocao_dados",true);
+							$imgUrl = get_relative_thumb($promocao["imagemDestaque"],'medium');
 
-						?>
-						<div class="col-12 col-lg-4 col-md-6">
-							<div class="card">
-								<div class="object-cover" style="background-color:#ccc;background-image:url(<?php echo $imgUrl; ?>);"></div>
-								<div class="card-img-overlay">
-									<div class="line-h-4"></div>
-									<h3><?php echo $titulo; ?></h3>
-									<p class="card-text"><?php echo $fraseDestaque; ?></p>
-									<a href="<?php echo $link; ?>" class="btn-exchange-primary">VEJA MAIS</a>
-									<button type="button" class="btn-exchange-secundary btOrcamentoFacil" data-programa="<?php echo $titulo; ?>">ORÇAMENTO FACIL</button>
+							?>
+							<div class="col-12 col-lg-4 col-md-6">
+								<div class="card">
+									<div class="object-cover" style="background-color:#ccc;background-image:url(<?php echo $imgUrl; ?>);"></div>
+									<div class="card-img-overlay">
+										<div class="line-h-4"></div>
+										<h3><?php echo $titulo; ?></h3>
+										<p class="card-text"><?php echo $promocao["fraseDestaque"]; ?></p>
+										<a href="<?php echo $promocao["link"]; ?>" class="btn-exchange-primary"><?php _e('VEJA MAIS','egali')?></a>
+										<button type="button" class="btn-exchange-secundary btOrcamentoFacil" data-programa="<?php echo $titulo; ?>"><?php _e('ORÇAMENTO FACIL','egali')?></button>
+									</div>
 								</div>
 							</div>
-						</div>
 						<?php
-
+						}
 					}
-				} else {
-					?>
-					<div class="col-12 col-lg-4 col-md-6">
-						<p>Não há promoções no momento.</p>
-					</div>
-					<?php
-				}
 				?>
 				
 				
@@ -103,17 +87,17 @@ get_header();
 			<div class="row">
 				<div class="col-12 col-lg-8">
 					<div class="txt-one">
-						<small>faça acontecer</small>
-						<h1>ESTUDO + TRABALHO?</h1>
+						<small><?php _e('faça acontecer','egali')?></small>
+						<h1><?php _e('ESTUDO + TRABALHO?','egali')?></h1>
 					</div>
 					<div class="txt-two">
-						<h4>LET'S</h4>
-						<span>G</span>
-						<span>O</span>
+						<h4><?php _e("LET'S",'egali')?></h4>
+						<span><?php _e('G','egali')?></span>
+						<span><?php _e('O','egali')?></span>
 					</div>
 				</div>
 				<div class="col-12 col-lg-4">
-					<a href="intercambios" class="btn btn-secondary">VEJA MAIS COMO</a>
+					<a href="<?php echo get_home_url(); ?>/intercambios" class="btn btn-secondary"><?php _e('VEJA MAIS COMO','egali')?></a>
 				</div>
 			</div>
 		</div>
